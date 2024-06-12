@@ -1,0 +1,323 @@
+,variable,long_name,component,experiment,forcing_variant,frequency,vertical_levels,spatial_domain,units,start_time,end_time,path
+0,FLNS,net longwave flux at surface,atm,historical,cmip6,daily,1.0,global,W/m2,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-historical-cmip6-FLNS.zarr
+1,FLNSC,clearsky net longwave flux at surface,atm,historical,cmip6,daily,1.0,global,W/m2,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-historical-cmip6-FLNSC.zarr
+2,FLUT,upwelling longwave flux at top of model,atm,historical,cmip6,daily,1.0,global,W/m2,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-historical-cmip6-FLUT.zarr
+3,FSNS,net solar flux at surface,atm,historical,cmip6,daily,1.0,global,W/m2,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-historical-cmip6-FSNS.zarr
+4,FSNSC,clearsky net solar flux at surface,atm,historical,cmip6,daily,1.0,global,W/m2,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-historical-cmip6-FSNSC.zarr
+5,LHFLX,surface latent heat flux,atm,historical,cmip6,daily,1.0,global,W/m2,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-historical-cmip6-LHFLX.zarr
+6,PRECC,convective precipitation rate (liq + ice),atm,historical,cmip6,daily,1.0,global,m/s,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-historical-cmip6-PRECC.zarr
+7,PRECL,large-scale (stable) precipitation rate (liq + ice),atm,historical,cmip6,daily,1.0,global,m/s,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-historical-cmip6-PRECL.zarr
+8,PRECSC,convective snow rate (water equivalent),atm,historical,cmip6,daily,1.0,global,m/s,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-historical-cmip6-PRECSC.zarr
+9,PRECSL,large-scale (stable) snow rate (water equivalent),atm,historical,cmip6,daily,1.0,global,m/s,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-historical-cmip6-PRECSL.zarr
+10,PS,surface pressure,atm,historical,cmip6,daily,1.0,global,Pa,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-historical-cmip6-PS.zarr
+11,PSL,sea level pressure,atm,historical,cmip6,daily,1.0,global,Pa,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-historical-cmip6-PSL.zarr
+12,Q,specific humidity,atm,historical,cmip6,daily,32.0,global,kg/kg,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-historical-cmip6-Q.zarr
+13,SHFLX,surface sensible heat flux,atm,historical,cmip6,daily,1.0,global,W/m2,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-historical-cmip6-SHFLX.zarr
+14,T,temperature,atm,historical,cmip6,daily,32.0,global,K,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-historical-cmip6-T.zarr
+15,TMQ,total (vertically integrated) precipitable water,atm,historical,cmip6,daily,1.0,global,kg/m2,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-historical-cmip6-TMQ.zarr
+16,TREFHT,reference height temperature,atm,historical,cmip6,daily,1.0,global,K,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-historical-cmip6-TREFHT.zarr
+17,TREFHTMN,minimum reference height temperature over output period,atm,historical,cmip6,daily,1.0,global,K,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-historical-cmip6-TREFHTMN.zarr
+18,TREFHTMX,maximum reference height temperature over output period,atm,historical,cmip6,daily,1.0,global,K,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-historical-cmip6-TREFHTMX.zarr
+19,TS,surface temperature (radiative),atm,historical,cmip6,daily,1.0,global,K,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-historical-cmip6-TS.zarr
+20,U,zonal wind,atm,historical,cmip6,daily,32.0,global,m/s,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-historical-cmip6-U.zarr
+21,V,meridional wind,atm,historical,cmip6,daily,32.0,global,m/s,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-historical-cmip6-V.zarr
+22,Z3,geopotential height (above sea level),atm,historical,cmip6,daily,32.0,global,m,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-historical-cmip6-Z3.zarr
+23,FLNS,net longwave flux at surface,atm,historical,smbb,daily,1.0,global,W/m2,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-historical-smbb-FLNS.zarr
+24,FLNSC,clearsky net longwave flux at surface,atm,historical,smbb,daily,1.0,global,W/m2,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-historical-smbb-FLNSC.zarr
+25,FLUT,upwelling longwave flux at top of model,atm,historical,smbb,daily,1.0,global,W/m2,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-historical-smbb-FLUT.zarr
+26,FSNS,net solar flux at surface,atm,historical,smbb,daily,1.0,global,W/m2,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-historical-smbb-FSNS.zarr
+27,FSNSC,clearsky net solar flux at surface,atm,historical,smbb,daily,1.0,global,W/m2,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-historical-smbb-FSNSC.zarr
+28,LHFLX,surface latent heat flux,atm,historical,smbb,daily,1.0,global,W/m2,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-historical-smbb-LHFLX.zarr
+29,PRECC,convective precipitation rate (liq + ice),atm,historical,smbb,daily,1.0,global,m/s,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-historical-smbb-PRECC.zarr
+30,PRECL,large-scale (stable) precipitation rate (liq + ice),atm,historical,smbb,daily,1.0,global,m/s,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-historical-smbb-PRECL.zarr
+31,PRECSC,convective snow rate (water equivalent),atm,historical,smbb,daily,1.0,global,m/s,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-historical-smbb-PRECSC.zarr
+32,PRECSL,large-scale (stable) snow rate (water equivalent),atm,historical,smbb,daily,1.0,global,m/s,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-historical-smbb-PRECSL.zarr
+33,PS,surface pressure,atm,historical,smbb,daily,1.0,global,Pa,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-historical-smbb-PS.zarr
+34,PSL,sea level pressure,atm,historical,smbb,daily,1.0,global,Pa,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-historical-smbb-PSL.zarr
+35,Q,specific humidity,atm,historical,smbb,daily,32.0,global,kg/kg,1850-01-01 12:00:00,2015-01-01 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-historical-smbb-Q.zarr
+36,SHFLX,surface sensible heat flux,atm,historical,smbb,daily,1.0,global,W/m2,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-historical-smbb-SHFLX.zarr
+37,T,temperature,atm,historical,smbb,daily,32.0,global,K,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-historical-smbb-T.zarr
+38,TMQ,total (vertically integrated) precipitable water,atm,historical,smbb,daily,1.0,global,kg/m2,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-historical-smbb-TMQ.zarr
+39,TREFHT,reference height temperature,atm,historical,smbb,daily,1.0,global,K,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-historical-smbb-TREFHT.zarr
+40,TREFHTMN,minimum reference height temperature over output period,atm,historical,smbb,daily,1.0,global,K,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-historical-smbb-TREFHTMN.zarr
+41,TREFHTMX,maximum reference height temperature over output period,atm,historical,smbb,daily,1.0,global,K,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-historical-smbb-TREFHTMX.zarr
+42,TS,surface temperature (radiative),atm,historical,smbb,daily,1.0,global,K,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-historical-smbb-TS.zarr
+43,U,zonal wind,atm,historical,smbb,daily,32.0,global,m/s,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-historical-smbb-U.zarr
+44,V,meridional wind,atm,historical,smbb,daily,32.0,global,m/s,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-historical-smbb-V.zarr
+45,Z3,geopotential height (above sea level),atm,historical,smbb,daily,32.0,global,m,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-historical-smbb-Z3.zarr
+46,FLNS,net longwave flux at surface,atm,ssp370,cmip6,daily,1.0,global,W/m2,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-ssp370-cmip6-FLNS.zarr
+47,FLNSC,clearsky net longwave flux at surface,atm,ssp370,cmip6,daily,1.0,global,W/m2,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-ssp370-cmip6-FLNSC.zarr
+48,FLUT,upwelling longwave flux at top of model,atm,ssp370,cmip6,daily,1.0,global,W/m2,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-ssp370-cmip6-FLUT.zarr
+49,FSNS,net solar flux at surface,atm,ssp370,cmip6,daily,1.0,global,W/m2,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-ssp370-cmip6-FSNS.zarr
+50,FSNSC,clearsky net solar flux at surface,atm,ssp370,cmip6,daily,1.0,global,W/m2,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-ssp370-cmip6-FSNSC.zarr
+51,LHFLX,surface latent heat flux,atm,ssp370,cmip6,daily,1.0,global,W/m2,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-ssp370-cmip6-LHFLX.zarr
+52,PRECC,convective precipitation rate (liq + ice),atm,ssp370,cmip6,daily,1.0,global,m/s,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-ssp370-cmip6-PRECC.zarr
+53,PRECL,large-scale (stable) precipitation rate (liq + ice),atm,ssp370,cmip6,daily,1.0,global,m/s,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-ssp370-cmip6-PRECL.zarr
+54,PRECSC,convective snow rate (water equivalent),atm,ssp370,cmip6,daily,1.0,global,m/s,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-ssp370-cmip6-PRECSC.zarr
+55,PRECSL,large-scale (stable) snow rate (water equivalent),atm,ssp370,cmip6,daily,1.0,global,m/s,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-ssp370-cmip6-PRECSL.zarr
+56,PS,surface pressure,atm,ssp370,cmip6,daily,1.0,global,Pa,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-ssp370-cmip6-PS.zarr
+57,PSL,sea level pressure,atm,ssp370,cmip6,daily,1.0,global,Pa,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-ssp370-cmip6-PSL.zarr
+58,Q,specific humidity,atm,ssp370,cmip6,daily,32.0,global,kg/kg,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-ssp370-cmip6-Q.zarr
+59,SHFLX,surface sensible heat flux,atm,ssp370,cmip6,daily,1.0,global,W/m2,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-ssp370-cmip6-SHFLX.zarr
+60,TMQ,total (vertically integrated) precipitable water,atm,ssp370,cmip6,daily,1.0,global,kg/m2,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-ssp370-cmip6-TMQ.zarr
+61,TREFHT,reference height temperature,atm,ssp370,cmip6,daily,1.0,global,K,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-ssp370-cmip6-TREFHT.zarr
+62,TREFHTMN,minimum reference height temperature over output period,atm,ssp370,cmip6,daily,1.0,global,K,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-ssp370-cmip6-TREFHTMN.zarr
+63,TREFHTMX,maximum reference height temperature over output period,atm,ssp370,cmip6,daily,1.0,global,K,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-ssp370-cmip6-TREFHTMX.zarr
+64,TS,surface temperature (radiative),atm,ssp370,cmip6,daily,1.0,global,K,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-ssp370-cmip6-TS.zarr
+65,U,zonal wind,atm,ssp370,cmip6,daily,32.0,global,m/s,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-ssp370-cmip6-U.zarr
+66,V,meridional wind,atm,ssp370,cmip6,daily,32.0,global,m/s,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-ssp370-cmip6-V.zarr
+67,Z3,geopotential height (above sea level),atm,ssp370,cmip6,daily,32.0,global,m,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-ssp370-cmip6-Z3.zarr
+68,FLNS,net longwave flux at surface,atm,ssp370,smbb,daily,1.0,global,W/m2,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-ssp370-smbb-FLNS.zarr
+69,FLNSC,clearsky net longwave flux at surface,atm,ssp370,smbb,daily,1.0,global,W/m2,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-ssp370-smbb-FLNSC.zarr
+70,FLUT,upwelling longwave flux at top of model,atm,ssp370,smbb,daily,1.0,global,W/m2,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-ssp370-smbb-FLUT.zarr
+71,FSNS,net solar flux at surface,atm,ssp370,smbb,daily,1.0,global,W/m2,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-ssp370-smbb-FSNS.zarr
+72,FSNSC,clearsky net solar flux at surface,atm,ssp370,smbb,daily,1.0,global,W/m2,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-ssp370-smbb-FSNSC.zarr
+73,LHFLX,surface latent heat flux,atm,ssp370,smbb,daily,1.0,global,W/m2,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-ssp370-smbb-LHFLX.zarr
+74,PRECC,convective precipitation rate (liq + ice),atm,ssp370,smbb,daily,1.0,global,m/s,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-ssp370-smbb-PRECC.zarr
+75,PRECL,large-scale (stable) precipitation rate (liq + ice),atm,ssp370,smbb,daily,1.0,global,m/s,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-ssp370-smbb-PRECL.zarr
+76,PRECSC,convective snow rate (water equivalent),atm,ssp370,smbb,daily,1.0,global,m/s,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-ssp370-smbb-PRECSC.zarr
+77,PRECSL,large-scale (stable) snow rate (water equivalent),atm,ssp370,smbb,daily,1.0,global,m/s,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-ssp370-smbb-PRECSL.zarr
+78,PS,surface pressure,atm,ssp370,smbb,daily,1.0,global,Pa,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-ssp370-smbb-PS.zarr
+79,PSL,sea level pressure,atm,ssp370,smbb,daily,1.0,global,Pa,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-ssp370-smbb-PSL.zarr
+80,SHFLX,surface sensible heat flux,atm,ssp370,smbb,daily,1.0,global,W/m2,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-ssp370-smbb-SHFLX.zarr
+81,TMQ,total (vertically integrated) precipitable water,atm,ssp370,smbb,daily,1.0,global,kg/m2,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-ssp370-smbb-TMQ.zarr
+82,TREFHT,reference height temperature,atm,ssp370,smbb,daily,1.0,global,K,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-ssp370-smbb-TREFHT.zarr
+83,TREFHTMN,minimum reference height temperature over output period,atm,ssp370,smbb,daily,1.0,global,K,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-ssp370-smbb-TREFHTMN.zarr
+84,TREFHTMX,maximum reference height temperature over output period,atm,ssp370,smbb,daily,1.0,global,K,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-ssp370-smbb-TREFHTMX.zarr
+85,TS,surface temperature (radiative),atm,ssp370,smbb,daily,1.0,global,K,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/atm/daily/cesm2LE-ssp370-smbb-TS.zarr
+86,FLNS,net longwave flux at surface,atm,historical,cmip6,monthly,1.0,global,W/m2,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-historical-cmip6-FLNS.zarr
+87,FLNSC,clearsky net longwave flux at surface,atm,historical,cmip6,monthly,1.0,global,W/m2,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-historical-cmip6-FLNSC.zarr
+88,FLUT,upwelling longwave flux at top of model,atm,historical,cmip6,monthly,1.0,global,W/m2,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-historical-cmip6-FLUT.zarr
+89,FSNS,net solar flux at surface,atm,historical,cmip6,monthly,1.0,global,W/m2,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-historical-cmip6-FSNS.zarr
+90,FSNSC,clearsky net solar flux at surface,atm,historical,cmip6,monthly,1.0,global,W/m2,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-historical-cmip6-FSNSC.zarr
+91,FSNTOA,net solar flux at top of atmosphere,atm,historical,cmip6,monthly,1.0,global,W/m2,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-historical-cmip6-FSNTOA.zarr
+92,ICEFRAC,fraction of sfc area covered by sea-ice,atm,historical,cmip6,monthly,1.0,global,fraction,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-historical-cmip6-ICEFRAC.zarr
+93,LHFLX,surface latent heat flux,atm,historical,cmip6,monthly,1.0,global,W/m2,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-historical-cmip6-LHFLX.zarr
+94,PRECC,convective precipitation rate (liq + ice),atm,historical,cmip6,monthly,1.0,global,m/s,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-historical-cmip6-PRECC.zarr
+95,PRECL,large-scale (stable) precipitation rate (liq + ice),atm,historical,cmip6,monthly,1.0,global,m/s,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-historical-cmip6-PRECL.zarr
+96,PRECSC,convective snow rate (water equivalent),atm,historical,cmip6,monthly,1.0,global,m/s,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-historical-cmip6-PRECSC.zarr
+97,PRECSL,large-scale (stable) snow rate (water equivalent),atm,historical,cmip6,monthly,1.0,global,m/s,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-historical-cmip6-PRECSL.zarr
+98,PS,surface pressure,atm,historical,cmip6,monthly,1.0,global,Pa,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-historical-cmip6-PS.zarr
+99,PSL,sea level pressure,atm,historical,cmip6,monthly,1.0,global,Pa,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-historical-cmip6-PSL.zarr
+100,Q,specific humidity,atm,historical,cmip6,monthly,32.0,global,kg/kg,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-historical-cmip6-Q.zarr
+101,SHFLX,surface sensible heat flux,atm,historical,cmip6,monthly,1.0,global,W/m2,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-historical-cmip6-SHFLX.zarr
+102,T,temperature,atm,historical,cmip6,monthly,32.0,global,K,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-historical-cmip6-T.zarr
+103,TMQ,total (vertically integrated) precipitable water,atm,historical,cmip6,monthly,1.0,global,kg/m2,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-historical-cmip6-TMQ.zarr
+104,TREFHT,reference height temperature,atm,historical,cmip6,monthly,1.0,global,K,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-historical-cmip6-TREFHT.zarr
+105,TREFHTMN,minimum reference height temperature over output period,atm,historical,cmip6,monthly,1.0,global,K,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-historical-cmip6-TREFHTMN.zarr
+106,TREFHTMX,maximum reference height temperature over output period,atm,historical,cmip6,monthly,1.0,global,K,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-historical-cmip6-TREFHTMX.zarr
+107,TS,surface temperature (radiative),atm,historical,cmip6,monthly,1.0,global,K,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-historical-cmip6-TS.zarr
+108,U,zonal wind,atm,historical,cmip6,monthly,32.0,global,m/s,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-historical-cmip6-U.zarr
+109,Z3,geopotential height (above sea level),atm,historical,cmip6,monthly,32.0,global,m,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-historical-cmip6-Z3.zarr
+110,FLNS,net longwave flux at surface,atm,historical,smbb,monthly,1.0,global,W/m2,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-historical-smbb-FLNS.zarr
+111,FLNSC,clearsky net longwave flux at surface,atm,historical,smbb,monthly,1.0,global,W/m2,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-historical-smbb-FLNSC.zarr
+112,FLUT,upwelling longwave flux at top of model,atm,historical,smbb,monthly,1.0,global,W/m2,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-historical-smbb-FLUT.zarr
+113,FSNS,net solar flux at surface,atm,historical,smbb,monthly,1.0,global,W/m2,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-historical-smbb-FSNS.zarr
+114,FSNSC,clearsky net solar flux at surface,atm,historical,smbb,monthly,1.0,global,W/m2,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-historical-smbb-FSNSC.zarr
+115,FSNTOA,net solar flux at top of atmosphere,atm,historical,smbb,monthly,1.0,global,W/m2,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-historical-smbb-FSNTOA.zarr
+116,ICEFRAC,fraction of sfc area covered by sea-ice,atm,historical,smbb,monthly,1.0,global,fraction,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-historical-smbb-ICEFRAC.zarr
+117,LHFLX,surface latent heat flux,atm,historical,smbb,monthly,1.0,global,W/m2,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-historical-smbb-LHFLX.zarr
+118,PRECC,convective precipitation rate (liq + ice),atm,historical,smbb,monthly,1.0,global,m/s,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-historical-smbb-PRECC.zarr
+119,PRECL,large-scale (stable) precipitation rate (liq + ice),atm,historical,smbb,monthly,1.0,global,m/s,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-historical-smbb-PRECL.zarr
+120,PRECSC,convective snow rate (water equivalent),atm,historical,smbb,monthly,1.0,global,m/s,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-historical-smbb-PRECSC.zarr
+121,PRECSL,large-scale (stable) snow rate (water equivalent),atm,historical,smbb,monthly,1.0,global,m/s,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-historical-smbb-PRECSL.zarr
+122,PS,surface pressure,atm,historical,smbb,monthly,1.0,global,Pa,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-historical-smbb-PS.zarr
+123,PSL,sea level pressure,atm,historical,smbb,monthly,1.0,global,Pa,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-historical-smbb-PSL.zarr
+124,Q,specific humidity,atm,historical,smbb,monthly,32.0,global,kg/kg,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-historical-smbb-Q.zarr
+125,SHFLX,surface sensible heat flux,atm,historical,smbb,monthly,1.0,global,W/m2,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-historical-smbb-SHFLX.zarr
+126,T,temperature,atm,historical,smbb,monthly,32.0,global,K,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-historical-smbb-T.zarr
+127,TMQ,total (vertically integrated) precipitable water,atm,historical,smbb,monthly,1.0,global,kg/m2,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-historical-smbb-TMQ.zarr
+128,TREFHT,reference height temperature,atm,historical,smbb,monthly,1.0,global,K,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-historical-smbb-TREFHT.zarr
+129,TREFHTMN,minimum reference height temperature over output period,atm,historical,smbb,monthly,1.0,global,K,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-historical-smbb-TREFHTMN.zarr
+130,TREFHTMX,maximum reference height temperature over output period,atm,historical,smbb,monthly,1.0,global,K,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-historical-smbb-TREFHTMX.zarr
+131,TS,surface temperature (radiative),atm,historical,smbb,monthly,1.0,global,K,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-historical-smbb-TS.zarr
+132,U,zonal wind,atm,historical,smbb,monthly,32.0,global,m/s,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-historical-smbb-U.zarr
+133,Z3,geopotential height (above sea level),atm,historical,smbb,monthly,32.0,global,m,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-historical-smbb-Z3.zarr
+134,FLNS,net longwave flux at surface,atm,ssp370,cmip6,monthly,1.0,global,W/m2,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-ssp370-cmip6-FLNS.zarr
+135,FLNSC,clearsky net longwave flux at surface,atm,ssp370,cmip6,monthly,1.0,global,W/m2,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-ssp370-cmip6-FLNSC.zarr
+136,FLUT,upwelling longwave flux at top of model,atm,ssp370,cmip6,monthly,1.0,global,W/m2,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-ssp370-cmip6-FLUT.zarr
+137,FSNS,net solar flux at surface,atm,ssp370,cmip6,monthly,1.0,global,W/m2,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-ssp370-cmip6-FSNS.zarr
+138,FSNSC,clearsky net solar flux at surface,atm,ssp370,cmip6,monthly,1.0,global,W/m2,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-ssp370-cmip6-FSNSC.zarr
+139,FSNTOA,net solar flux at top of atmosphere,atm,ssp370,cmip6,monthly,1.0,global,W/m2,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-ssp370-cmip6-FSNTOA.zarr
+140,ICEFRAC,fraction of sfc area covered by sea-ice,atm,ssp370,cmip6,monthly,1.0,global,fraction,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-ssp370-cmip6-ICEFRAC.zarr
+141,LHFLX,surface latent heat flux,atm,ssp370,cmip6,monthly,1.0,global,W/m2,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-ssp370-cmip6-LHFLX.zarr
+142,PRECC,convective precipitation rate (liq + ice),atm,ssp370,cmip6,monthly,1.0,global,m/s,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-ssp370-cmip6-PRECC.zarr
+143,PRECL,large-scale (stable) precipitation rate (liq + ice),atm,ssp370,cmip6,monthly,1.0,global,m/s,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-ssp370-cmip6-PRECL.zarr
+144,PRECSC,convective snow rate (water equivalent),atm,ssp370,cmip6,monthly,1.0,global,m/s,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-ssp370-cmip6-PRECSC.zarr
+145,PRECSL,large-scale (stable) snow rate (water equivalent),atm,ssp370,cmip6,monthly,1.0,global,m/s,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-ssp370-cmip6-PRECSL.zarr
+146,PS,surface pressure,atm,ssp370,cmip6,monthly,1.0,global,Pa,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-ssp370-cmip6-PS.zarr
+147,PSL,sea level pressure,atm,ssp370,cmip6,monthly,1.0,global,Pa,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-ssp370-cmip6-PSL.zarr
+148,Q,specific humidity,atm,ssp370,cmip6,monthly,32.0,global,kg/kg,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-ssp370-cmip6-Q.zarr
+149,SHFLX,surface sensible heat flux,atm,ssp370,cmip6,monthly,1.0,global,W/m2,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-ssp370-cmip6-SHFLX.zarr
+150,T,temperature,atm,ssp370,cmip6,monthly,32.0,global,K,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-ssp370-cmip6-T.zarr
+151,TMQ,total (vertically integrated) precipitable water,atm,ssp370,cmip6,monthly,1.0,global,kg/m2,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-ssp370-cmip6-TMQ.zarr
+152,TREFHT,reference height temperature,atm,ssp370,cmip6,monthly,1.0,global,K,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-ssp370-cmip6-TREFHT.zarr
+153,TREFHTMN,minimum reference height temperature over output period,atm,ssp370,cmip6,monthly,1.0,global,K,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-ssp370-cmip6-TREFHTMN.zarr
+154,TREFHTMX,maximum reference height temperature over output period,atm,ssp370,cmip6,monthly,1.0,global,K,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-ssp370-cmip6-TREFHTMX.zarr
+155,TS,surface temperature (radiative),atm,ssp370,cmip6,monthly,1.0,global,K,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-ssp370-cmip6-TS.zarr
+156,U,zonal wind,atm,ssp370,cmip6,monthly,32.0,global,m/s,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-ssp370-cmip6-U.zarr
+157,Z3,geopotential height (above sea level),atm,ssp370,cmip6,monthly,32.0,global,m,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-ssp370-cmip6-Z3.zarr
+158,FLNS,net longwave flux at surface,atm,ssp370,smbb,monthly,1.0,global,W/m2,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-ssp370-smbb-FLNS.zarr
+159,FLNSC,clearsky net longwave flux at surface,atm,ssp370,smbb,monthly,1.0,global,W/m2,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-ssp370-smbb-FLNSC.zarr
+160,FLUT,upwelling longwave flux at top of model,atm,ssp370,smbb,monthly,1.0,global,W/m2,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-ssp370-smbb-FLUT.zarr
+161,FSNS,net solar flux at surface,atm,ssp370,smbb,monthly,1.0,global,W/m2,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-ssp370-smbb-FSNS.zarr
+162,FSNSC,clearsky net solar flux at surface,atm,ssp370,smbb,monthly,1.0,global,W/m2,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-ssp370-smbb-FSNSC.zarr
+163,FSNTOA,net solar flux at top of atmosphere,atm,ssp370,smbb,monthly,1.0,global,W/m2,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-ssp370-smbb-FSNTOA.zarr
+164,ICEFRAC,fraction of sfc area covered by sea-ice,atm,ssp370,smbb,monthly,1.0,global,fraction,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-ssp370-smbb-ICEFRAC.zarr
+165,LHFLX,surface latent heat flux,atm,ssp370,smbb,monthly,1.0,global,W/m2,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-ssp370-smbb-LHFLX.zarr
+166,PRECC,convective precipitation rate (liq + ice),atm,ssp370,smbb,monthly,1.0,global,m/s,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-ssp370-smbb-PRECC.zarr
+167,PRECL,large-scale (stable) precipitation rate (liq + ice),atm,ssp370,smbb,monthly,1.0,global,m/s,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-ssp370-smbb-PRECL.zarr
+168,PRECSC,convective snow rate (water equivalent),atm,ssp370,smbb,monthly,1.0,global,m/s,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-ssp370-smbb-PRECSC.zarr
+169,PRECSL,large-scale (stable) snow rate (water equivalent),atm,ssp370,smbb,monthly,1.0,global,m/s,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-ssp370-smbb-PRECSL.zarr
+170,PS,surface pressure,atm,ssp370,smbb,monthly,1.0,global,Pa,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-ssp370-smbb-PS.zarr
+171,PSL,sea level pressure,atm,ssp370,smbb,monthly,1.0,global,Pa,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-ssp370-smbb-PSL.zarr
+172,Q,specific humidity,atm,ssp370,smbb,monthly,32.0,global,kg/kg,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-ssp370-smbb-Q.zarr
+173,SHFLX,surface sensible heat flux,atm,ssp370,smbb,monthly,1.0,global,W/m2,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-ssp370-smbb-SHFLX.zarr
+174,T,temperature,atm,ssp370,smbb,monthly,32.0,global,K,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-ssp370-smbb-T.zarr
+175,TMQ,total (vertically integrated) precipitable water,atm,ssp370,smbb,monthly,1.0,global,kg/m2,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-ssp370-smbb-TMQ.zarr
+176,TREFHT,reference height temperature,atm,ssp370,smbb,monthly,1.0,global,K,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-ssp370-smbb-TREFHT.zarr
+177,TREFHTMN,minimum reference height temperature over output period,atm,ssp370,smbb,monthly,1.0,global,K,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-ssp370-smbb-TREFHTMN.zarr
+178,TREFHTMX,maximum reference height temperature over output period,atm,ssp370,smbb,monthly,1.0,global,K,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-ssp370-smbb-TREFHTMX.zarr
+179,TS,surface temperature (radiative),atm,ssp370,smbb,monthly,1.0,global,K,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-ssp370-smbb-TS.zarr
+180,U,zonal wind,atm,ssp370,smbb,monthly,32.0,global,m/s,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-ssp370-smbb-U.zarr
+181,Z3,geopotential height (above sea level),atm,ssp370,smbb,monthly,32.0,global,m,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/atm/monthly/cesm2LE-ssp370-smbb-Z3.zarr
+182,,,atm,historical,smbb,static,,global,,,,s3://ncar-cesm2-lens/atm/static/grid.zarr
+183,,,atm,historical,cmip6,static,,global,,,,s3://ncar-cesm2-lens/atm/static/grid.zarr
+184,,,atm,ssp370,smbb,static,,global,,,,s3://ncar-cesm2-lens/atm/static/grid.zarr
+185,,,atm,ssp370,cmip6,static,,global,,,,s3://ncar-cesm2-lens/atm/static/grid.zarr
+186,aice_d,ice area  (aggregate),ice,historical,cmip6,daily,1.0,global_ocean,1,1850-01-01 12:00:00,2014-12-30 12:00:00,s3://ncar-cesm2-lens/ice/daily/cesm2LE-historical-cmip6-aice_d.zarr
+187,hi_d,grid cell mean ice thickness,ice,historical,cmip6,daily,1.0,global_ocean,m,1850-01-01 12:00:00,2014-12-30 12:00:00,s3://ncar-cesm2-lens/ice/daily/cesm2LE-historical-cmip6-hi_d.zarr
+188,aice_d,ice area  (aggregate),ice,historical,smbb,daily,1.0,global_ocean,1,1850-01-01 12:00:00,2014-12-30 12:00:00,s3://ncar-cesm2-lens/ice/daily/cesm2LE-historical-smbb-aice_d.zarr
+189,hi_d,grid cell mean ice thickness,ice,historical,smbb,daily,1.0,global_ocean,m,1850-01-01 12:00:00,2014-12-30 12:00:00,s3://ncar-cesm2-lens/ice/daily/cesm2LE-historical-smbb-hi_d.zarr
+190,aice_d,ice area  (aggregate),ice,ssp370,cmip6,daily,1.0,global_ocean,1,2015-01-01 12:00:00,2100-12-30 12:00:00,s3://ncar-cesm2-lens/ice/daily/cesm2LE-ssp370-cmip6-aice_d.zarr
+191,hi_d,grid cell mean ice thickness,ice,ssp370,cmip6,daily,1.0,global_ocean,m,2015-01-01 12:00:00,2100-12-30 12:00:00,s3://ncar-cesm2-lens/ice/daily/cesm2LE-ssp370-cmip6-hi_d.zarr
+192,aice_d,ice area  (aggregate),ice,ssp370,smbb,daily,1.0,global_ocean,1,2015-01-01 12:00:00,2100-12-30 12:00:00,s3://ncar-cesm2-lens/ice/daily/cesm2LE-ssp370-smbb-aice_d.zarr
+193,hi_d,grid cell mean ice thickness,ice,ssp370,smbb,daily,1.0,global_ocean,m,2015-01-01 12:00:00,2100-12-30 12:00:00,s3://ncar-cesm2-lens/ice/daily/cesm2LE-ssp370-smbb-hi_d.zarr
+194,aice,ice area  (aggregate),ice,historical,cmip6,monthly,1.0,global_ocean,1,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/ice/monthly/cesm2LE-historical-cmip6-aice.zarr
+195,hi,grid cell mean ice thickness,ice,historical,cmip6,monthly,1.0,global_ocean,m,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/ice/monthly/cesm2LE-historical-cmip6-hi.zarr
+196,aice,ice area  (aggregate),ice,historical,smbb,monthly,1.0,global_ocean,1,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/ice/monthly/cesm2LE-historical-smbb-aice.zarr
+197,hi,grid cell mean ice thickness,ice,historical,smbb,monthly,1.0,global_ocean,m,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/ice/monthly/cesm2LE-historical-smbb-hi.zarr
+198,aice,ice area  (aggregate),ice,ssp370,cmip6,monthly,1.0,global_ocean,1,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/ice/monthly/cesm2LE-ssp370-cmip6-aice.zarr
+199,hi,grid cell mean ice thickness,ice,ssp370,cmip6,monthly,1.0,global_ocean,m,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/ice/monthly/cesm2LE-ssp370-cmip6-hi.zarr
+200,aice,ice area  (aggregate),ice,ssp370,smbb,monthly,1.0,global_ocean,1,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/ice/monthly/cesm2LE-ssp370-smbb-aice.zarr
+201,hi,grid cell mean ice thickness,ice,ssp370,smbb,monthly,1.0,global_ocean,m,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/ice/monthly/cesm2LE-ssp370-smbb-hi.zarr
+202,,,ice,historical,smbb,static,,global_ocean,,,,s3://ncar-cesm2-lens/ice/static/grid.zarr
+203,,,ice,historical,cmip6,static,,global_ocean,,,,s3://ncar-cesm2-lens/ice/static/grid.zarr
+204,,,ice,ssp370,smbb,static,,global_ocean,,,,s3://ncar-cesm2-lens/ice/static/grid.zarr
+205,,,ice,ssp370,cmip6,static,,global_ocean,,,,s3://ncar-cesm2-lens/ice/static/grid.zarr
+206,FSNO,fraction of ground covered by snow,lnd,historical,cmip6,daily,1.0,global_land,unitless,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/lnd/daily/cesm2LE-historical-cmip6-FSNO.zarr
+207,H2OSNO,snow depth (liquid water),lnd,historical,cmip6,daily,1.0,global_land,mm,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/lnd/daily/cesm2LE-historical-cmip6-H2OSNO.zarr
+208,NPP,net primary production,lnd,historical,cmip6,daily,1.0,global_land,gC/m^2/s,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/lnd/daily/cesm2LE-historical-cmip6-NPP.zarr
+209,QRUNOFF,total liquid runoff not including correction for land use change,lnd,historical,cmip6,daily,1.0,global_land,mm/s,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/lnd/daily/cesm2LE-historical-cmip6-QRUNOFF.zarr
+210,RAIN,"atmospheric rain, after rain/snow repartitioning based on temperature",lnd,historical,cmip6,daily,1.0,global_land,mm/s,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/lnd/daily/cesm2LE-historical-cmip6-RAIN.zarr
+211,SNOW,"atmospheric snow, after rain/snow repartitioning based on temperature",lnd,historical,cmip6,daily,1.0,global_land,mm/s,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/lnd/daily/cesm2LE-historical-cmip6-SNOW.zarr
+212,SOILWATER_10CM,soil liquid water + ice in top 10cm of soil (veg landunits only),lnd,historical,cmip6,daily,1.0,global_land,kg/m2,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/lnd/daily/cesm2LE-historical-cmip6-SOILWATER_10CM.zarr
+213,FSNO,fraction of ground covered by snow,lnd,historical,smbb,daily,1.0,global_land,unitless,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/lnd/daily/cesm2LE-historical-smbb-FSNO.zarr
+214,H2OSNO,snow depth (liquid water),lnd,historical,smbb,daily,1.0,global_land,mm,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/lnd/daily/cesm2LE-historical-smbb-H2OSNO.zarr
+215,NPP,net primary production,lnd,historical,smbb,daily,1.0,global_land,gC/m^2/s,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/lnd/daily/cesm2LE-historical-smbb-NPP.zarr
+216,QRUNOFF,total liquid runoff not including correction for land use change,lnd,historical,smbb,daily,1.0,global_land,mm/s,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/lnd/daily/cesm2LE-historical-smbb-QRUNOFF.zarr
+217,RAIN,"atmospheric rain, after rain/snow repartitioning based on temperature",lnd,historical,smbb,daily,1.0,global_land,mm/s,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/lnd/daily/cesm2LE-historical-smbb-RAIN.zarr
+218,SNOW,"atmospheric snow, after rain/snow repartitioning based on temperature",lnd,historical,smbb,daily,1.0,global_land,mm/s,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/lnd/daily/cesm2LE-historical-smbb-SNOW.zarr
+219,SOILWATER_10CM,soil liquid water + ice in top 10cm of soil (veg landunits only),lnd,historical,smbb,daily,1.0,global_land,kg/m2,1850-01-01 12:00:00,2014-12-31 12:00:00,s3://ncar-cesm2-lens/lnd/daily/cesm2LE-historical-smbb-SOILWATER_10CM.zarr
+220,FSNO,fraction of ground covered by snow,lnd,ssp370,cmip6,daily,1.0,global_land,unitless,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/lnd/daily/cesm2LE-ssp370-cmip6-FSNO.zarr
+221,H2OSNO,snow depth (liquid water),lnd,ssp370,cmip6,daily,1.0,global_land,mm,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/lnd/daily/cesm2LE-ssp370-cmip6-H2OSNO.zarr
+222,NPP,net primary production,lnd,ssp370,cmip6,daily,1.0,global_land,gC/m^2/s,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/lnd/daily/cesm2LE-ssp370-cmip6-NPP.zarr
+223,QRUNOFF,total liquid runoff not including correction for land use change,lnd,ssp370,cmip6,daily,1.0,global_land,mm/s,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/lnd/daily/cesm2LE-ssp370-cmip6-QRUNOFF.zarr
+224,RAIN,"atmospheric rain, after rain/snow repartitioning based on temperature",lnd,ssp370,cmip6,daily,1.0,global_land,mm/s,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/lnd/daily/cesm2LE-ssp370-cmip6-RAIN.zarr
+225,SNOW,"atmospheric snow, after rain/snow repartitioning based on temperature",lnd,ssp370,cmip6,daily,1.0,global_land,mm/s,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/lnd/daily/cesm2LE-ssp370-cmip6-SNOW.zarr
+226,SOILWATER_10CM,soil liquid water + ice in top 10cm of soil (veg landunits only),lnd,ssp370,cmip6,daily,1.0,global_land,kg/m2,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/lnd/daily/cesm2LE-ssp370-cmip6-SOILWATER_10CM.zarr
+227,TREFMXAV,daily maximum of average 2-m temperature,lnd,ssp370,cmip6,daily,1.0,global_land,K,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/lnd/daily/cesm2LE-ssp370-cmip6-TREFMXAV.zarr
+228,FSNO,fraction of ground covered by snow,lnd,ssp370,smbb,daily,1.0,global_land,unitless,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/lnd/daily/cesm2LE-ssp370-smbb-FSNO.zarr
+229,H2OSNO,snow depth (liquid water),lnd,ssp370,smbb,daily,1.0,global_land,mm,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/lnd/daily/cesm2LE-ssp370-smbb-H2OSNO.zarr
+230,NPP,net primary production,lnd,ssp370,smbb,daily,1.0,global_land,gC/m^2/s,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/lnd/daily/cesm2LE-ssp370-smbb-NPP.zarr
+231,QRUNOFF,total liquid runoff not including correction for land use change,lnd,ssp370,smbb,daily,1.0,global_land,mm/s,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/lnd/daily/cesm2LE-ssp370-smbb-QRUNOFF.zarr
+232,RAIN,"atmospheric rain, after rain/snow repartitioning based on temperature",lnd,ssp370,smbb,daily,1.0,global_land,mm/s,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/lnd/daily/cesm2LE-ssp370-smbb-RAIN.zarr
+233,SNOW,"atmospheric snow, after rain/snow repartitioning based on temperature",lnd,ssp370,smbb,daily,1.0,global_land,mm/s,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/lnd/daily/cesm2LE-ssp370-smbb-SNOW.zarr
+234,SOILWATER_10CM,soil liquid water + ice in top 10cm of soil (veg landunits only),lnd,ssp370,smbb,daily,1.0,global_land,kg/m2,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/lnd/daily/cesm2LE-ssp370-smbb-SOILWATER_10CM.zarr
+235,TREFMXAV,daily maximum of average 2-m temperature,lnd,ssp370,smbb,daily,1.0,global_land,K,2015-01-01 12:00:00,2100-12-31 12:00:00,s3://ncar-cesm2-lens/lnd/daily/cesm2LE-ssp370-smbb-TREFMXAV.zarr
+236,FSNO,fraction of ground covered by snow,lnd,historical,cmip6,monthly,1.0,global_land,unitless,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/lnd/monthly/cesm2LE-historical-cmip6-FSNO.zarr
+237,H2OSNO,snow depth (liquid water),lnd,historical,cmip6,monthly,1.0,global_land,mm,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/lnd/monthly/cesm2LE-historical-cmip6-H2OSNO.zarr
+238,QRUNOFF,total liquid runoff not including correction for land use change,lnd,historical,cmip6,monthly,1.0,global_land,mm/s,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/lnd/monthly/cesm2LE-historical-cmip6-QRUNOFF.zarr
+239,RAIN,"atmospheric rain, after rain/snow repartitioning based on temperature",lnd,historical,cmip6,monthly,1.0,global_land,mm/s,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/lnd/monthly/cesm2LE-historical-cmip6-RAIN.zarr
+240,SNOW,"atmospheric snow, after rain/snow repartitioning based on temperature",lnd,historical,cmip6,monthly,1.0,global_land,mm/s,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/lnd/monthly/cesm2LE-historical-cmip6-SNOW.zarr
+241,SOILLIQ,soil liquid water (vegetated landunits only),lnd,historical,cmip6,monthly,1.0,global_land,kg/m2,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/lnd/monthly/cesm2LE-historical-cmip6-SOILLIQ.zarr
+242,SOILWATER_10CM,soil liquid water + ice in top 10cm of soil (veg landunits only),lnd,historical,cmip6,monthly,1.0,global_land,kg/m2,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/lnd/monthly/cesm2LE-historical-cmip6-SOILWATER_10CM.zarr
+243,TREFMXAV,daily maximum of average 2-m temperature,lnd,historical,cmip6,monthly,1.0,global_land,K,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/lnd/monthly/cesm2LE-historical-cmip6-TREFMXAV.zarr
+244,FSNO,fraction of ground covered by snow,lnd,historical,smbb,monthly,1.0,global_land,unitless,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/lnd/monthly/cesm2LE-historical-smbb-FSNO.zarr
+245,H2OSNO,snow depth (liquid water),lnd,historical,smbb,monthly,1.0,global_land,mm,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/lnd/monthly/cesm2LE-historical-smbb-H2OSNO.zarr
+246,QRUNOFF,total liquid runoff not including correction for land use change,lnd,historical,smbb,monthly,1.0,global_land,mm/s,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/lnd/monthly/cesm2LE-historical-smbb-QRUNOFF.zarr
+247,RAIN,"atmospheric rain, after rain/snow repartitioning based on temperature",lnd,historical,smbb,monthly,1.0,global_land,mm/s,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/lnd/monthly/cesm2LE-historical-smbb-RAIN.zarr
+248,SNOW,"atmospheric snow, after rain/snow repartitioning based on temperature",lnd,historical,smbb,monthly,1.0,global_land,mm/s,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/lnd/monthly/cesm2LE-historical-smbb-SNOW.zarr
+249,SOILLIQ,soil liquid water (vegetated landunits only),lnd,historical,smbb,monthly,1.0,global_land,kg/m2,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/lnd/monthly/cesm2LE-historical-smbb-SOILLIQ.zarr
+250,SOILWATER_10CM,soil liquid water + ice in top 10cm of soil (veg landunits only),lnd,historical,smbb,monthly,1.0,global_land,kg/m2,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/lnd/monthly/cesm2LE-historical-smbb-SOILWATER_10CM.zarr
+251,TREFMXAV,daily maximum of average 2-m temperature,lnd,historical,smbb,monthly,1.0,global_land,K,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/lnd/monthly/cesm2LE-historical-smbb-TREFMXAV.zarr
+252,FSNO,fraction of ground covered by snow,lnd,ssp370,cmip6,monthly,1.0,global_land,unitless,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/lnd/monthly/cesm2LE-ssp370-cmip6-FSNO.zarr
+253,H2OSNO,snow depth (liquid water),lnd,ssp370,cmip6,monthly,1.0,global_land,mm,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/lnd/monthly/cesm2LE-ssp370-cmip6-H2OSNO.zarr
+254,QRUNOFF,total liquid runoff not including correction for land use change,lnd,ssp370,cmip6,monthly,1.0,global_land,mm/s,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/lnd/monthly/cesm2LE-ssp370-cmip6-QRUNOFF.zarr
+255,RAIN,"atmospheric rain, after rain/snow repartitioning based on temperature",lnd,ssp370,cmip6,monthly,1.0,global_land,mm/s,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/lnd/monthly/cesm2LE-ssp370-cmip6-RAIN.zarr
+256,SNOW,"atmospheric snow, after rain/snow repartitioning based on temperature",lnd,ssp370,cmip6,monthly,1.0,global_land,mm/s,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/lnd/monthly/cesm2LE-ssp370-cmip6-SNOW.zarr
+257,SOILLIQ,soil liquid water (vegetated landunits only),lnd,ssp370,cmip6,monthly,1.0,global_land,kg/m2,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/lnd/monthly/cesm2LE-ssp370-cmip6-SOILLIQ.zarr
+258,SOILWATER_10CM,soil liquid water + ice in top 10cm of soil (veg landunits only),lnd,ssp370,cmip6,monthly,1.0,global_land,kg/m2,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/lnd/monthly/cesm2LE-ssp370-cmip6-SOILWATER_10CM.zarr
+259,TREFMXAV,daily maximum of average 2-m temperature,lnd,ssp370,cmip6,monthly,1.0,global_land,K,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/lnd/monthly/cesm2LE-ssp370-cmip6-TREFMXAV.zarr
+260,FSNO,fraction of ground covered by snow,lnd,ssp370,smbb,monthly,1.0,global_land,unitless,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/lnd/monthly/cesm2LE-ssp370-smbb-FSNO.zarr
+261,H2OSNO,snow depth (liquid water),lnd,ssp370,smbb,monthly,1.0,global_land,mm,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/lnd/monthly/cesm2LE-ssp370-smbb-H2OSNO.zarr
+262,QRUNOFF,total liquid runoff not including correction for land use change,lnd,ssp370,smbb,monthly,1.0,global_land,mm/s,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/lnd/monthly/cesm2LE-ssp370-smbb-QRUNOFF.zarr
+263,RAIN,"atmospheric rain, after rain/snow repartitioning based on temperature",lnd,ssp370,smbb,monthly,1.0,global_land,mm/s,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/lnd/monthly/cesm2LE-ssp370-smbb-RAIN.zarr
+264,SNOW,"atmospheric snow, after rain/snow repartitioning based on temperature",lnd,ssp370,smbb,monthly,1.0,global_land,mm/s,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/lnd/monthly/cesm2LE-ssp370-smbb-SNOW.zarr
+265,SOILLIQ,soil liquid water (vegetated landunits only),lnd,ssp370,smbb,monthly,1.0,global_land,kg/m2,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/lnd/monthly/cesm2LE-ssp370-smbb-SOILLIQ.zarr
+266,SOILWATER_10CM,soil liquid water + ice in top 10cm of soil (veg landunits only),lnd,ssp370,smbb,monthly,1.0,global_land,kg/m2,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/lnd/monthly/cesm2LE-ssp370-smbb-SOILWATER_10CM.zarr
+267,TREFMXAV,daily maximum of average 2-m temperature,lnd,ssp370,smbb,monthly,1.0,global_land,K,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/lnd/monthly/cesm2LE-ssp370-smbb-TREFMXAV.zarr
+268,DIC,dissolved inorganic carbon,ocn,historical,cmip6,monthly,60.0,global_ocean,mmol/m^3,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/ocn/monthly/cesm2LE-historical-cmip6-DIC.zarr
+269,O2,dissolved oxygen,ocn,historical,cmip6,monthly,60.0,global_ocean,mmol/m^3,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/ocn/monthly/cesm2LE-historical-cmip6-O2.zarr
+270,SALT,salinity,ocn,historical,cmip6,monthly,60.0,global_ocean,gram/kilogram,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/ocn/monthly/cesm2LE-historical-cmip6-SALT.zarr
+271,TEMP,potential temperature,ocn,historical,cmip6,monthly,60.0,global_ocean,degC,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/ocn/monthly/cesm2LE-historical-cmip6-TEMP.zarr
+272,UES,salt flux in grid-x direction,ocn,historical,cmip6,monthly,60.0,global_ocean,gram/kilogram/s,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/ocn/monthly/cesm2LE-historical-cmip6-UES.zarr
+273,UVEL,velocity in grid-x direction,ocn,historical,cmip6,monthly,60.0,global_ocean,centimeter/s,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/ocn/monthly/cesm2LE-historical-cmip6-UVEL.zarr
+274,VNS,salt flux in grid-y direction,ocn,historical,cmip6,monthly,60.0,global_ocean,gram/kilogram/s,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/ocn/monthly/cesm2LE-historical-cmip6-VNS.zarr
+275,VNT,flux of heat in grid-y direction,ocn,historical,cmip6,monthly,60.0,global_ocean,degC/s,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/ocn/monthly/cesm2LE-historical-cmip6-VNT.zarr
+276,WTT,heat flux across top face,ocn,historical,cmip6,monthly,60.0,global_ocean,degC/s,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/ocn/monthly/cesm2LE-historical-cmip6-WTT.zarr
+277,WVEL,vertical velocity,ocn,historical,cmip6,monthly,60.0,global_ocean,centimeter/s,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/ocn/monthly/cesm2LE-historical-cmip6-WVEL.zarr
+278,DIC,dissolved inorganic carbon,ocn,historical,smbb,monthly,60.0,global_ocean,mmol/m^3,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/ocn/monthly/cesm2LE-historical-smbb-DIC.zarr
+279,DOC,dissolved organic carbon,ocn,historical,smbb,monthly,60.0,global_ocean,mmol/m^3,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/ocn/monthly/cesm2LE-historical-smbb-DOC.zarr
+280,O2,dissolved oxygen,ocn,historical,smbb,monthly,60.0,global_ocean,mmol/m^3,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/ocn/monthly/cesm2LE-historical-smbb-O2.zarr
+281,SALT,salinity,ocn,historical,smbb,monthly,60.0,global_ocean,gram/kilogram,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/ocn/monthly/cesm2LE-historical-smbb-SALT.zarr
+282,UES,salt flux in grid-x direction,ocn,historical,smbb,monthly,60.0,global_ocean,gram/kilogram/s,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/ocn/monthly/cesm2LE-historical-smbb-UES.zarr
+283,UET,flux of heat in grid-x direction,ocn,historical,smbb,monthly,60.0,global_ocean,degC/s,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/ocn/monthly/cesm2LE-historical-smbb-UET.zarr
+284,UVEL,velocity in grid-x direction,ocn,historical,smbb,monthly,60.0,global_ocean,centimeter/s,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/ocn/monthly/cesm2LE-historical-smbb-UVEL.zarr
+285,VNS,salt flux in grid-y direction,ocn,historical,smbb,monthly,60.0,global_ocean,gram/kilogram/s,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/ocn/monthly/cesm2LE-historical-smbb-VNS.zarr
+286,VNT,flux of heat in grid-y direction,ocn,historical,smbb,monthly,60.0,global_ocean,degC/s,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/ocn/monthly/cesm2LE-historical-smbb-VNT.zarr
+287,WTT,heat flux across top face,ocn,historical,smbb,monthly,60.0,global_ocean,degC/s,1850-01-16 12:00:00,2014-12-16 12:00:00,s3://ncar-cesm2-lens/ocn/monthly/cesm2LE-historical-smbb-WTT.zarr
+288,DIC,dissolved inorganic carbon,ocn,ssp370,cmip6,monthly,60.0,global_ocean,mmol/m^3,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/ocn/monthly/cesm2LE-ssp370-cmip6-DIC.zarr
+289,DOC,dissolved organic carbon,ocn,ssp370,cmip6,monthly,60.0,global_ocean,mmol/m^3,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/ocn/monthly/cesm2LE-ssp370-cmip6-DOC.zarr
+290,O2,dissolved oxygen,ocn,ssp370,cmip6,monthly,60.0,global_ocean,mmol/m^3,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/ocn/monthly/cesm2LE-ssp370-cmip6-O2.zarr
+291,PD,potential density ref to surface,ocn,ssp370,cmip6,monthly,60.0,global_ocean,gram/centimeter^3,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/ocn/monthly/cesm2LE-ssp370-cmip6-PD.zarr
+292,SALT,salinity,ocn,ssp370,cmip6,monthly,60.0,global_ocean,gram/kilogram,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/ocn/monthly/cesm2LE-ssp370-cmip6-SALT.zarr
+293,TEMP,potential temperature,ocn,ssp370,cmip6,monthly,60.0,global_ocean,degC,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/ocn/monthly/cesm2LE-ssp370-cmip6-TEMP.zarr
+294,UES,salt flux in grid-x direction,ocn,ssp370,cmip6,monthly,60.0,global_ocean,gram/kilogram/s,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/ocn/monthly/cesm2LE-ssp370-cmip6-UES.zarr
+295,UET,flux of heat in grid-x direction,ocn,ssp370,cmip6,monthly,60.0,global_ocean,degC/s,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/ocn/monthly/cesm2LE-ssp370-cmip6-UET.zarr
+296,UVEL,velocity in grid-x direction,ocn,ssp370,cmip6,monthly,60.0,global_ocean,centimeter/s,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/ocn/monthly/cesm2LE-ssp370-cmip6-UVEL.zarr
+297,VNS,salt flux in grid-y direction,ocn,ssp370,cmip6,monthly,60.0,global_ocean,gram/kilogram/s,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/ocn/monthly/cesm2LE-ssp370-cmip6-VNS.zarr
+298,VNT,flux of heat in grid-y direction,ocn,ssp370,cmip6,monthly,60.0,global_ocean,degC/s,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/ocn/monthly/cesm2LE-ssp370-cmip6-VNT.zarr
+299,VVEL,velocity in grid-y direction,ocn,ssp370,cmip6,monthly,60.0,global_ocean,centimeter/s,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/ocn/monthly/cesm2LE-ssp370-cmip6-VVEL.zarr
+300,WTS,salt flux across top face,ocn,ssp370,cmip6,monthly,60.0,global_ocean,gram/kilogram/s,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/ocn/monthly/cesm2LE-ssp370-cmip6-WTS.zarr
+301,WTT,heat flux across top face,ocn,ssp370,cmip6,monthly,60.0,global_ocean,degC/s,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/ocn/monthly/cesm2LE-ssp370-cmip6-WTT.zarr
+302,WVEL,vertical velocity,ocn,ssp370,cmip6,monthly,60.0,global_ocean,centimeter/s,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/ocn/monthly/cesm2LE-ssp370-cmip6-WVEL.zarr
+303,DIC,dissolved inorganic carbon,ocn,ssp370,smbb,monthly,60.0,global_ocean,mmol/m^3,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/ocn/monthly/cesm2LE-ssp370-smbb-DIC.zarr
+304,DOC,dissolved organic carbon,ocn,ssp370,smbb,monthly,60.0,global_ocean,mmol/m^3,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/ocn/monthly/cesm2LE-ssp370-smbb-DOC.zarr
+305,O2,dissolved oxygen,ocn,ssp370,smbb,monthly,60.0,global_ocean,mmol/m^3,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/ocn/monthly/cesm2LE-ssp370-smbb-O2.zarr
+306,PD,potential density ref to surface,ocn,ssp370,smbb,monthly,60.0,global_ocean,gram/centimeter^3,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/ocn/monthly/cesm2LE-ssp370-smbb-PD.zarr
+307,SALT,salinity,ocn,ssp370,smbb,monthly,60.0,global_ocean,gram/kilogram,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/ocn/monthly/cesm2LE-ssp370-smbb-SALT.zarr
+308,TEMP,potential temperature,ocn,ssp370,smbb,monthly,60.0,global_ocean,degC,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/ocn/monthly/cesm2LE-ssp370-smbb-TEMP.zarr
+309,UES,salt flux in grid-x direction,ocn,ssp370,smbb,monthly,60.0,global_ocean,gram/kilogram/s,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/ocn/monthly/cesm2LE-ssp370-smbb-UES.zarr
+310,UET,flux of heat in grid-x direction,ocn,ssp370,smbb,monthly,60.0,global_ocean,degC/s,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/ocn/monthly/cesm2LE-ssp370-smbb-UET.zarr
+311,UVEL,velocity in grid-x direction,ocn,ssp370,smbb,monthly,60.0,global_ocean,centimeter/s,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/ocn/monthly/cesm2LE-ssp370-smbb-UVEL.zarr
+312,VNS,salt flux in grid-y direction,ocn,ssp370,smbb,monthly,60.0,global_ocean,gram/kilogram/s,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/ocn/monthly/cesm2LE-ssp370-smbb-VNS.zarr
+313,VNT,flux of heat in grid-y direction,ocn,ssp370,smbb,monthly,60.0,global_ocean,degC/s,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/ocn/monthly/cesm2LE-ssp370-smbb-VNT.zarr
+314,VVEL,velocity in grid-y direction,ocn,ssp370,smbb,monthly,60.0,global_ocean,centimeter/s,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/ocn/monthly/cesm2LE-ssp370-smbb-VVEL.zarr
+315,WTS,salt flux across top face,ocn,ssp370,smbb,monthly,60.0,global_ocean,gram/kilogram/s,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/ocn/monthly/cesm2LE-ssp370-smbb-WTS.zarr
+316,WTT,heat flux across top face,ocn,ssp370,smbb,monthly,60.0,global_ocean,degC/s,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/ocn/monthly/cesm2LE-ssp370-smbb-WTT.zarr
+317,WVEL,vertical velocity,ocn,ssp370,smbb,monthly,60.0,global_ocean,centimeter/s,2015-01-16 12:00:00,2100-12-16 12:00:00,s3://ncar-cesm2-lens/ocn/monthly/cesm2LE-ssp370-smbb-WVEL.zarr
+318,,,ocn,historical,smbb,static,,global_ocean,,,,s3://ncar-cesm2-lens/ocn/static/grid.zarr
+319,,,ocn,historical,cmip6,static,,global_ocean,,,,s3://ncar-cesm2-lens/ocn/static/grid.zarr
+320,,,ocn,ssp370,smbb,static,,global_ocean,,,,s3://ncar-cesm2-lens/ocn/static/grid.zarr
+321,,,ocn,ssp370,cmip6,static,,global_ocean,,,,s3://ncar-cesm2-lens/ocn/static/grid.zarr
