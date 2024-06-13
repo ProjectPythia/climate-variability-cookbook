@@ -2,8 +2,8 @@
 
 # Climate-Variability-Extremes Cookbook
 
-[![nightly-build](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml)
-[![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/ProjectPythia/cookbook-template/main?labpath=notebooks)
+[![nightly-build](https://github.com/ProjectPythia/climate-variability-cookbook/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythia/climate-variability-cookbook/actions/workflows/nightly-build.yaml)
+[![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/ProjectPythia/climate-variability-cookbook/main?labpath=notebooks)
 [![DOI](https://zenodo.org/badge/475509405.svg)](https://zenodo.org/badge/latestdoi/475509405)
 
 This Project Pythia Cookbook aims to cover the basics of climate variability and extremes, and then analyze this using CESM2-SF-LE data. It provides user-friendly examples and, in the end, an interactive platform. Additionally, it includes some reading materials and links
@@ -19,8 +19,8 @@ Add a few sentences stating why this cookbook will be useful. What skills will y
 
 ### Contributors
 
-<a href="https://github.com/ProjectPythia/cookbook-template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ProjectPythia/cookbook-template" />
+<a href="https://github.com/ProjectPythia/climate-variability-cookbook/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ProjectPythia/climate-variability-cookbook" />
 </a>
 
 ## Structure
