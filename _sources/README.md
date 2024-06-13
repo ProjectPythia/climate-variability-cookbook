@@ -37,8 +37,8 @@ Add a few sentences stating why this cookbook will be useful. What skills will y
 
 ## Sections
 
-### Introduction to Climate Variability and Extremes
-Content for this section...
+### Climate Variability and Extremes
+<img src="images/ProjectPythia_Logo_Final-01-Blue.svg" width=250 alt="Project Pythia Logo"></img>
 
 ### Natural Variability in Climate Systems
 Content for this section...
