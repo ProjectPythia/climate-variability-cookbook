@@ -25,7 +25,11 @@ Add a few sentences stating why this cookbook will be useful. What skills will y
 
 ## Structure
 
-(State one or more sections that will comprise the notebook. E.g., _This cookbook is broken up into two main sections - "Foundations" and "Example Workflows."_ Then, describe each section below.)
+Introduction to Climate Variability and Extremes
+Natural Variability in Climate Systems
+Human-Induced Changes in Climate
+Feedback Mechanisms in Climate Systems
+Observing and Measuring Climate Extremes
 
 ## Resourses
  https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2005JD006290
