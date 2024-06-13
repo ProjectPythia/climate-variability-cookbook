@@ -25,11 +25,33 @@ Add a few sentences stating why this cookbook will be useful. What skills will y
 
 ## Structure
 
-Introduction to Climate Variability and Extremes
-Natural Variability in Climate Systems
-Human-Induced Changes in Climate
-Feedback Mechanisms in Climate Systems
-Observing and Measuring Climate Extremes
+
+
+## Table of Contents
+
+1. [Introduction to Climate Variability and Extremes](#introduction-to-climate-variability-and-extremes)
+2. [Natural Variability in Climate Systems](#natural-variability-in-climate-systems)
+3. [Human-Induced Changes in Climate](#human-induced-changes-in-climate)
+4. [Feedback Mechanisms in Climate Systems](#feedback-mechanisms-in-climate-systems)
+5. [Observing and Measuring Climate Extremes](#observing-and-measuring-climate-extremes)
+
+## Sections
+
+### Introduction to Climate Variability and Extremes
+Content for this section...
+
+### Natural Variability in Climate Systems
+Content for this section...
+
+### Human-Induced Changes in Climate
+Content for this section...
+
+### Feedback Mechanisms in Climate Systems
+Content for this section...
+
+### Observing and Measuring Climate Extremes
+Content for this section...
+
 
 ## Resourses
  https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2005JD006290
