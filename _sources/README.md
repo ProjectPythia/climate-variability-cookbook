@@ -29,7 +29,7 @@ Add a few sentences stating why this cookbook will be useful. What skills will y
 
 ## Table of Contents
 
-1. [Introduction to Climate Variability and Extremes](#introduction-to-climate-variability-and-extremes)
+1. [Climate Variability and Extremes](#climate-variability-and-extremes)
 2. [Natural Variability in Climate Systems](#natural-variability-in-climate-systems)
 3. [Human-Induced Changes in Climate](#human-induced-changes-in-climate)
 4. [Feedback Mechanisms in Climate Systems](#feedback-mechanisms-in-climate-systems)
