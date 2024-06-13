@@ -711,7 +711,7 @@
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;climdex.precipitation.PrecipitationIndices at 0x7efe90dc68c0&gt;
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;climdex.precipitation.PrecipitationIndices at 0x7fcf20e55570&gt;
 </pre></div>
 </div>
 </div>
@@ -958,32 +958,7 @@
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>{&#39;atm.20C.daily&#39;: &lt;xarray.Dataset&gt; Size: 278GB
- Dimensions:    (member_id: 40, time: 31390, lat: 192, lon: 288, nbnd: 2)
- Coordinates:
-   * lat        (lat) float64 2kB -90.0 -89.06 -88.12 -87.17 ... 88.12 89.06 90.0
-   * lon        (lon) float64 2kB 0.0 1.25 2.5 3.75 ... 355.0 356.2 357.5 358.8
-   * member_id  (member_id) int64 320B 1 2 3 4 5 6 7 ... 35 101 102 103 104 105
-   * time       (time) object 251kB 1920-01-01 12:00:00 ... 2005-12-31 12:00:00
-     time_bnds  (time, nbnd) object 502kB dask.array&lt;chunksize=(15695, 2), meta=np.ndarray&gt;
- Dimensions without coordinates: nbnd
- Data variables:
-     TREFHT     (member_id, time, lat, lon) float32 278GB dask.array&lt;chunksize=(1, 576, 192, 288), meta=np.ndarray&gt;
- Attributes: (12/25)
-     Conventions:                       CF-1.0
-     NCO:                               4.4.2
-     Version:                           $Name$
-     important_note:                    This data is part of the project &#39;Blin...
-     initial_file:                      b.e11.B20TRC5CNBDRD.f09_g16.001.cam.i....
-     logname:                           mudryk
-     ...                                ...
-     intake_esm_attrs:units:            K
-     intake_esm_attrs:start_time:       1920-01-01 12:00:00
-     intake_esm_attrs:end_time:         2005-12-31 12:00:00
-     intake_esm_attrs:path:             s3://ncar-cesm-lens/atm/daily/cesmLE-2...
-     intake_esm_attrs:_data_format_:    zarr
-     intake_esm_dataset_key:            atm.20C.daily,
- &#39;atm.HIST.daily&#39;: &lt;xarray.Dataset&gt; Size: 6GB
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>{&#39;atm.HIST.daily&#39;: &lt;xarray.Dataset&gt; Size: 6GB
  Dimensions:    (time: 25550, lat: 192, lon: 288, nbnd: 2)
  Coordinates:
    * lat        (lat) float64 2kB -90.0 -89.06 -88.12 -87.17 ... 88.12 89.06 90.0
@@ -1008,6 +983,31 @@
      intake_esm_attrs:path:             s3://ncar-cesm-lens/atm/daily/cesmLE-H...
      intake_esm_attrs:_data_format_:    zarr
      intake_esm_dataset_key:            atm.HIST.daily,
+ &#39;atm.20C.daily&#39;: &lt;xarray.Dataset&gt; Size: 278GB
+ Dimensions:    (member_id: 40, time: 31390, lat: 192, lon: 288, nbnd: 2)
+ Coordinates:
+   * lat        (lat) float64 2kB -90.0 -89.06 -88.12 -87.17 ... 88.12 89.06 90.0
+   * lon        (lon) float64 2kB 0.0 1.25 2.5 3.75 ... 355.0 356.2 357.5 358.8
+   * member_id  (member_id) int64 320B 1 2 3 4 5 6 7 ... 35 101 102 103 104 105
+   * time       (time) object 251kB 1920-01-01 12:00:00 ... 2005-12-31 12:00:00
+     time_bnds  (time, nbnd) object 502kB dask.array&lt;chunksize=(15695, 2), meta=np.ndarray&gt;
+ Dimensions without coordinates: nbnd
+ Data variables:
+     TREFHT     (member_id, time, lat, lon) float32 278GB dask.array&lt;chunksize=(1, 576, 192, 288), meta=np.ndarray&gt;
+ Attributes: (12/25)
+     Conventions:                       CF-1.0
+     NCO:                               4.4.2
+     Version:                           $Name$
+     important_note:                    This data is part of the project &#39;Blin...
+     initial_file:                      b.e11.B20TRC5CNBDRD.f09_g16.001.cam.i....
+     logname:                           mudryk
+     ...                                ...
+     intake_esm_attrs:units:            K
+     intake_esm_attrs:start_time:       1920-01-01 12:00:00
+     intake_esm_attrs:end_time:         2005-12-31 12:00:00
+     intake_esm_attrs:path:             s3://ncar-cesm-lens/atm/daily/cesmLE-2...
+     intake_esm_attrs:_data_format_:    zarr
+     intake_esm_dataset_key:            atm.20C.daily,
  &#39;atm.RCP85.daily&#39;: &lt;xarray.Dataset&gt; Size: 307GB
  Dimensions:    (member_id: 40, time: 34675, lat: 192, lon: 288, nbnd: 2)
  Coordinates:
@@ -1069,7 +1069,7 @@
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>dict_keys([&#39;atm.20C.daily&#39;, &#39;atm.HIST.daily&#39;, &#39;atm.RCP85.daily&#39;, &#39;atm.CTRL.daily&#39;])
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>dict_keys([&#39;atm.HIST.daily&#39;, &#39;atm.20C.daily&#39;, &#39;atm.RCP85.daily&#39;, &#39;atm.CTRL.daily&#39;])
 </pre></div>
 </div>
 </div>
@@ -1475,7 +1475,7 @@ Attributes: (12/25)
     intake_esm_attrs:end_time:         1919-12-31 12:00:00
     intake_esm_attrs:path:             s3://ncar-cesm-lens/atm/daily/cesmLE-H...
     intake_esm_attrs:_data_format_:    zarr
-    intake_esm_dataset_key:            atm.HIST.daily</pre><div class='xr-wrap' style='display:none'><div class='xr-header'><div class='xr-obj-type'>xarray.Dataset</div></div><ul class='xr-sections'><li class='xr-section-item'><input id='section-9a900335-e56f-4a70-bf66-980a8ccafbed' class='xr-section-summary-in' type='checkbox' disabled ><label for='section-9a900335-e56f-4a70-bf66-980a8ccafbed' class='xr-section-summary'  title='Expand/collapse section'>Dimensions:</label><div class='xr-section-inline-details'><ul class='xr-dim-list'><li><span class='xr-has-index'>time</span>: 25550</li><li><span class='xr-has-index'>lat</span>: 192</li><li><span class='xr-has-index'>lon</span>: 288</li><li><span>nbnd</span>: 2</li></ul></div><div class='xr-section-details'></div></li><li class='xr-section-item'><input id='section-74a6c358-0741-43ab-8e54-14c4426fb0d7' class='xr-section-summary-in' type='checkbox'  checked><label for='section-74a6c358-0741-43ab-8e54-14c4426fb0d7' class='xr-section-summary' >Coordinates: <span>(5)</span></label><div class='xr-section-inline-details'></div><div class='xr-section-details'><ul class='xr-var-list'><li class='xr-var-item'><div class='xr-var-name'><span class='xr-has-index'>lat</span></div><div class='xr-var-dims'>(lat)</div><div class='xr-var-dtype'>float64</div><div class='xr-var-preview xr-preview'>-90.0 -89.06 -88.12 ... 89.06 90.0</div><input id='attrs-ba2204e9-736f-494d-9a06-71addea99fa5' class='xr-var-attrs-in' type='checkbox' ><label for='attrs-ba2204e9-736f-494d-9a06-71addea99fa5' title='Show/Hide attributes'><svg class='icon xr-icon-file-text2'><use xlink:href='#icon-file-text2'></use></svg></label><input id='data-8fc599cf-1065-4d73-8b27-ceff33671008' class='xr-var-data-in' type='checkbox'><label for='data-8fc599cf-1065-4d73-8b27-ceff33671008' title='Show/Hide data repr'><svg class='icon xr-icon-database'><use xlink:href='#icon-database'></use></svg></label><div class='xr-var-attrs'><dl class='xr-attrs'><dt><span>axis :</span></dt><dd>Y</dd><dt><span>bounds :</span></dt><dd>lat_bnds</dd><dt><span>long_name :</span></dt><dd>latitude</dd><dt><span>standard_name :</span></dt><dd>latitude</dd><dt><span>units :</span></dt><dd>degrees_north</dd></dl></div><div class='xr-var-data'><pre>array([-90.      , -89.057594, -88.115181, -87.172775, -86.23037 , -85.287956,
+    intake_esm_dataset_key:            atm.HIST.daily</pre><div class='xr-wrap' style='display:none'><div class='xr-header'><div class='xr-obj-type'>xarray.Dataset</div></div><ul class='xr-sections'><li class='xr-section-item'><input id='section-e0e0529e-58b4-4b59-b9e5-cefdb93a0eab' class='xr-section-summary-in' type='checkbox' disabled ><label for='section-e0e0529e-58b4-4b59-b9e5-cefdb93a0eab' class='xr-section-summary'  title='Expand/collapse section'>Dimensions:</label><div class='xr-section-inline-details'><ul class='xr-dim-list'><li><span class='xr-has-index'>time</span>: 25550</li><li><span class='xr-has-index'>lat</span>: 192</li><li><span class='xr-has-index'>lon</span>: 288</li><li><span>nbnd</span>: 2</li></ul></div><div class='xr-section-details'></div></li><li class='xr-section-item'><input id='section-46685a3f-f311-4b38-a808-570f0936c24d' class='xr-section-summary-in' type='checkbox'  checked><label for='section-46685a3f-f311-4b38-a808-570f0936c24d' class='xr-section-summary' >Coordinates: <span>(5)</span></label><div class='xr-section-inline-details'></div><div class='xr-section-details'><ul class='xr-var-list'><li class='xr-var-item'><div class='xr-var-name'><span class='xr-has-index'>lat</span></div><div class='xr-var-dims'>(lat)</div><div class='xr-var-dtype'>float64</div><div class='xr-var-preview xr-preview'>-90.0 -89.06 -88.12 ... 89.06 90.0</div><input id='attrs-32da796d-a002-4c67-8ac1-8419978a5fe1' class='xr-var-attrs-in' type='checkbox' ><label for='attrs-32da796d-a002-4c67-8ac1-8419978a5fe1' title='Show/Hide attributes'><svg class='icon xr-icon-file-text2'><use xlink:href='#icon-file-text2'></use></svg></label><input id='data-958e7bf4-7c68-4370-a02b-2f0a7f615a76' class='xr-var-data-in' type='checkbox'><label for='data-958e7bf4-7c68-4370-a02b-2f0a7f615a76' title='Show/Hide data repr'><svg class='icon xr-icon-database'><use xlink:href='#icon-database'></use></svg></label><div class='xr-var-attrs'><dl class='xr-attrs'><dt><span>axis :</span></dt><dd>Y</dd><dt><span>bounds :</span></dt><dd>lat_bnds</dd><dt><span>long_name :</span></dt><dd>latitude</dd><dt><span>standard_name :</span></dt><dd>latitude</dd><dt><span>units :</span></dt><dd>degrees_north</dd></dl></div><div class='xr-var-data'><pre>array([-90.      , -89.057594, -88.115181, -87.172775, -86.23037 , -85.287956,
        -84.345551, -83.403145, -82.460732, -81.518326, -80.575912, -79.633507,
        -78.691101, -77.748688, -76.806282, -75.863876, -74.921463, -73.979057,
        -73.036652, -72.094238, -71.151833, -70.209427, -69.267014, -68.324608,
@@ -1506,13 +1506,13 @@ Attributes: (12/25)
         68.324608,  69.267014,  70.209427,  71.151833,  72.094238,  73.036652,
         73.979057,  74.921463,  75.863876,  76.806282,  77.748688,  78.691101,
         79.633507,  80.575912,  81.518326,  82.460732,  83.403145,  84.345551,
-        85.287956,  86.23037 ,  87.172775,  88.115181,  89.057594,  90.      ])</pre></div></li><li class='xr-var-item'><div class='xr-var-name'><span class='xr-has-index'>lon</span></div><div class='xr-var-dims'>(lon)</div><div class='xr-var-dtype'>float64</div><div class='xr-var-preview xr-preview'>0.0 1.25 2.5 ... 356.2 357.5 358.8</div><input id='attrs-5cb87e48-b3aa-4e8a-be72-db7961861475' class='xr-var-attrs-in' type='checkbox' ><label for='attrs-5cb87e48-b3aa-4e8a-be72-db7961861475' title='Show/Hide attributes'><svg class='icon xr-icon-file-text2'><use xlink:href='#icon-file-text2'></use></svg></label><input id='data-52e7c754-b6c4-457c-968f-d409f4ed8e2a' class='xr-var-data-in' type='checkbox'><label for='data-52e7c754-b6c4-457c-968f-d409f4ed8e2a' title='Show/Hide data repr'><svg class='icon xr-icon-database'><use xlink:href='#icon-database'></use></svg></label><div class='xr-var-attrs'><dl class='xr-attrs'><dt><span>long_name :</span></dt><dd>longitude</dd><dt><span>units :</span></dt><dd>degrees_east</dd></dl></div><div class='xr-var-data'><pre>array([  0.  ,   1.25,   2.5 , ..., 356.25, 357.5 , 358.75])</pre></div></li><li class='xr-var-item'><div class='xr-var-name'><span>member_id</span></div><div class='xr-var-dims'>()</div><div class='xr-var-dtype'>int64</div><div class='xr-var-preview xr-preview'>...</div><input id='attrs-30ee119a-30f3-40a6-80b1-9ed8448454cd' class='xr-var-attrs-in' type='checkbox' disabled><label for='attrs-30ee119a-30f3-40a6-80b1-9ed8448454cd' title='Show/Hide attributes'><svg class='icon xr-icon-file-text2'><use xlink:href='#icon-file-text2'></use></svg></label><input id='data-e0d54b76-87e3-46f1-9fb2-8b684bcf3f0f' class='xr-var-data-in' type='checkbox'><label for='data-e0d54b76-87e3-46f1-9fb2-8b684bcf3f0f' title='Show/Hide data repr'><svg class='icon xr-icon-database'><use xlink:href='#icon-database'></use></svg></label><div class='xr-var-attrs'><dl class='xr-attrs'></dl></div><div class='xr-var-data'><pre>[1 values with dtype=int64]</pre></div></li><li class='xr-var-item'><div class='xr-var-name'><span class='xr-has-index'>time</span></div><div class='xr-var-dims'>(time)</div><div class='xr-var-dtype'>object</div><div class='xr-var-preview xr-preview'>1850-01-01 12:00:00 ... 1919-12-...</div><input id='attrs-6acf71eb-ff44-4a29-88dd-935591d745d9' class='xr-var-attrs-in' type='checkbox' ><label for='attrs-6acf71eb-ff44-4a29-88dd-935591d745d9' title='Show/Hide attributes'><svg class='icon xr-icon-file-text2'><use xlink:href='#icon-file-text2'></use></svg></label><input id='data-b5c7dbaa-e8a2-4ba1-98a8-36f7530dd0bd' class='xr-var-data-in' type='checkbox'><label for='data-b5c7dbaa-e8a2-4ba1-98a8-36f7530dd0bd' title='Show/Hide data repr'><svg class='icon xr-icon-database'><use xlink:href='#icon-database'></use></svg></label><div class='xr-var-attrs'><dl class='xr-attrs'><dt><span>bounds :</span></dt><dd>time_bnds</dd><dt><span>long_name :</span></dt><dd>time</dd></dl></div><div class='xr-var-data'><pre>array([cftime.DatetimeNoLeap(1850, 1, 1, 12, 0, 0, 0, has_year_zero=True),
+        85.287956,  86.23037 ,  87.172775,  88.115181,  89.057594,  90.      ])</pre></div></li><li class='xr-var-item'><div class='xr-var-name'><span class='xr-has-index'>lon</span></div><div class='xr-var-dims'>(lon)</div><div class='xr-var-dtype'>float64</div><div class='xr-var-preview xr-preview'>0.0 1.25 2.5 ... 356.2 357.5 358.8</div><input id='attrs-648519ae-ae11-48e5-a010-a228a58e8a31' class='xr-var-attrs-in' type='checkbox' ><label for='attrs-648519ae-ae11-48e5-a010-a228a58e8a31' title='Show/Hide attributes'><svg class='icon xr-icon-file-text2'><use xlink:href='#icon-file-text2'></use></svg></label><input id='data-7e90cb05-25ef-417e-8793-86131bb530a7' class='xr-var-data-in' type='checkbox'><label for='data-7e90cb05-25ef-417e-8793-86131bb530a7' title='Show/Hide data repr'><svg class='icon xr-icon-database'><use xlink:href='#icon-database'></use></svg></label><div class='xr-var-attrs'><dl class='xr-attrs'><dt><span>long_name :</span></dt><dd>longitude</dd><dt><span>units :</span></dt><dd>degrees_east</dd></dl></div><div class='xr-var-data'><pre>array([  0.  ,   1.25,   2.5 , ..., 356.25, 357.5 , 358.75])</pre></div></li><li class='xr-var-item'><div class='xr-var-name'><span>member_id</span></div><div class='xr-var-dims'>()</div><div class='xr-var-dtype'>int64</div><div class='xr-var-preview xr-preview'>...</div><input id='attrs-32ee5490-9c00-4121-aa21-c5b940ec2e3e' class='xr-var-attrs-in' type='checkbox' disabled><label for='attrs-32ee5490-9c00-4121-aa21-c5b940ec2e3e' title='Show/Hide attributes'><svg class='icon xr-icon-file-text2'><use xlink:href='#icon-file-text2'></use></svg></label><input id='data-3359e227-aa3c-407f-8efb-015f55b81c66' class='xr-var-data-in' type='checkbox'><label for='data-3359e227-aa3c-407f-8efb-015f55b81c66' title='Show/Hide data repr'><svg class='icon xr-icon-database'><use xlink:href='#icon-database'></use></svg></label><div class='xr-var-attrs'><dl class='xr-attrs'></dl></div><div class='xr-var-data'><pre>[1 values with dtype=int64]</pre></div></li><li class='xr-var-item'><div class='xr-var-name'><span class='xr-has-index'>time</span></div><div class='xr-var-dims'>(time)</div><div class='xr-var-dtype'>object</div><div class='xr-var-preview xr-preview'>1850-01-01 12:00:00 ... 1919-12-...</div><input id='attrs-dc9f1edb-c5eb-460c-8629-7b774f9128e0' class='xr-var-attrs-in' type='checkbox' ><label for='attrs-dc9f1edb-c5eb-460c-8629-7b774f9128e0' title='Show/Hide attributes'><svg class='icon xr-icon-file-text2'><use xlink:href='#icon-file-text2'></use></svg></label><input id='data-299df64b-f518-4405-a077-06c2c5ebfa1e' class='xr-var-data-in' type='checkbox'><label for='data-299df64b-f518-4405-a077-06c2c5ebfa1e' title='Show/Hide data repr'><svg class='icon xr-icon-database'><use xlink:href='#icon-database'></use></svg></label><div class='xr-var-attrs'><dl class='xr-attrs'><dt><span>bounds :</span></dt><dd>time_bnds</dd><dt><span>long_name :</span></dt><dd>time</dd></dl></div><div class='xr-var-data'><pre>array([cftime.DatetimeNoLeap(1850, 1, 1, 12, 0, 0, 0, has_year_zero=True),
        cftime.DatetimeNoLeap(1850, 1, 2, 12, 0, 0, 0, has_year_zero=True),
        cftime.DatetimeNoLeap(1850, 1, 3, 12, 0, 0, 0, has_year_zero=True), ...,
        cftime.DatetimeNoLeap(1919, 12, 29, 12, 0, 0, 0, has_year_zero=True),
        cftime.DatetimeNoLeap(1919, 12, 30, 12, 0, 0, 0, has_year_zero=True),
        cftime.DatetimeNoLeap(1919, 12, 31, 12, 0, 0, 0, has_year_zero=True)],
-      dtype=object)</pre></div></li><li class='xr-var-item'><div class='xr-var-name'><span>time_bnds</span></div><div class='xr-var-dims'>(time, nbnd)</div><div class='xr-var-dtype'>object</div><div class='xr-var-preview xr-preview'>dask.array&lt;chunksize=(12775, 2), meta=np.ndarray&gt;</div><input id='attrs-593e9ae5-a05a-42d6-b115-931ea1287890' class='xr-var-attrs-in' type='checkbox' ><label for='attrs-593e9ae5-a05a-42d6-b115-931ea1287890' title='Show/Hide attributes'><svg class='icon xr-icon-file-text2'><use xlink:href='#icon-file-text2'></use></svg></label><input id='data-079f06d1-161d-4cb9-91ab-0543731565c0' class='xr-var-data-in' type='checkbox'><label for='data-079f06d1-161d-4cb9-91ab-0543731565c0' title='Show/Hide data repr'><svg class='icon xr-icon-database'><use xlink:href='#icon-database'></use></svg></label><div class='xr-var-attrs'><dl class='xr-attrs'><dt><span>long_name :</span></dt><dd>time interval endpoints</dd></dl></div><div class='xr-var-data'><table>
+      dtype=object)</pre></div></li><li class='xr-var-item'><div class='xr-var-name'><span>time_bnds</span></div><div class='xr-var-dims'>(time, nbnd)</div><div class='xr-var-dtype'>object</div><div class='xr-var-preview xr-preview'>dask.array&lt;chunksize=(12775, 2), meta=np.ndarray&gt;</div><input id='attrs-aca25ccd-b88a-417b-91a8-95b0617fd123' class='xr-var-attrs-in' type='checkbox' ><label for='attrs-aca25ccd-b88a-417b-91a8-95b0617fd123' title='Show/Hide attributes'><svg class='icon xr-icon-file-text2'><use xlink:href='#icon-file-text2'></use></svg></label><input id='data-2515b52f-8fa8-4bad-a6c1-f1c28b10fe9d' class='xr-var-data-in' type='checkbox'><label for='data-2515b52f-8fa8-4bad-a6c1-f1c28b10fe9d' title='Show/Hide data repr'><svg class='icon xr-icon-database'><use xlink:href='#icon-database'></use></svg></label><div class='xr-var-attrs'><dl class='xr-attrs'><dt><span>long_name :</span></dt><dd>time interval endpoints</dd></dl></div><div class='xr-var-data'><table>
     <tr>
         <td>
             <table style="border-collapse: collapse;">
@@ -1568,7 +1568,7 @@ Attributes: (12/25)
 </svg>
         </td>
     </tr>
-</table></div></li></ul></div></li><li class='xr-section-item'><input id='section-da58c1ca-e829-424c-9df3-236f2aff3763' class='xr-section-summary-in' type='checkbox'  checked><label for='section-da58c1ca-e829-424c-9df3-236f2aff3763' class='xr-section-summary' >Data variables: <span>(1)</span></label><div class='xr-section-inline-details'></div><div class='xr-section-details'><ul class='xr-var-list'><li class='xr-var-item'><div class='xr-var-name'><span>TREFHT</span></div><div class='xr-var-dims'>(time, lat, lon)</div><div class='xr-var-dtype'>float32</div><div class='xr-var-preview xr-preview'>dask.array&lt;chunksize=(576, 192, 288), meta=np.ndarray&gt;</div><input id='attrs-0aab9e93-0d6e-4a68-9ca2-8e858ab2bd22' class='xr-var-attrs-in' type='checkbox' ><label for='attrs-0aab9e93-0d6e-4a68-9ca2-8e858ab2bd22' title='Show/Hide attributes'><svg class='icon xr-icon-file-text2'><use xlink:href='#icon-file-text2'></use></svg></label><input id='data-c95ad476-878e-47c9-9add-bab7c60803c0' class='xr-var-data-in' type='checkbox'><label for='data-c95ad476-878e-47c9-9add-bab7c60803c0' title='Show/Hide data repr'><svg class='icon xr-icon-database'><use xlink:href='#icon-database'></use></svg></label><div class='xr-var-attrs'><dl class='xr-attrs'><dt><span>cell_methods :</span></dt><dd>time: mean</dd><dt><span>long_name :</span></dt><dd>Reference height temperature</dd><dt><span>units :</span></dt><dd>K</dd></dl></div><div class='xr-var-data'><table>
+</table></div></li></ul></div></li><li class='xr-section-item'><input id='section-23f85ee6-878b-4c68-9ddc-164adb3c5df1' class='xr-section-summary-in' type='checkbox'  checked><label for='section-23f85ee6-878b-4c68-9ddc-164adb3c5df1' class='xr-section-summary' >Data variables: <span>(1)</span></label><div class='xr-section-inline-details'></div><div class='xr-section-details'><ul class='xr-var-list'><li class='xr-var-item'><div class='xr-var-name'><span>TREFHT</span></div><div class='xr-var-dims'>(time, lat, lon)</div><div class='xr-var-dtype'>float32</div><div class='xr-var-preview xr-preview'>dask.array&lt;chunksize=(576, 192, 288), meta=np.ndarray&gt;</div><input id='attrs-150df068-7c43-4d7b-b1aa-d2767d5afeee' class='xr-var-attrs-in' type='checkbox' ><label for='attrs-150df068-7c43-4d7b-b1aa-d2767d5afeee' title='Show/Hide attributes'><svg class='icon xr-icon-file-text2'><use xlink:href='#icon-file-text2'></use></svg></label><input id='data-2e9c6060-1c3b-4022-89ea-ecfd5ce4e181' class='xr-var-data-in' type='checkbox'><label for='data-2e9c6060-1c3b-4022-89ea-ecfd5ce4e181' title='Show/Hide data repr'><svg class='icon xr-icon-database'><use xlink:href='#icon-database'></use></svg></label><div class='xr-var-attrs'><dl class='xr-attrs'><dt><span>cell_methods :</span></dt><dd>time: mean</dd><dt><span>long_name :</span></dt><dd>Reference height temperature</dd><dt><span>units :</span></dt><dd>K</dd></dl></div><div class='xr-var-data'><table>
     <tr>
         <td>
             <table style="border-collapse: collapse;">
@@ -1682,7 +1682,7 @@ Attributes: (12/25)
 </svg>
         </td>
     </tr>
-</table></div></li></ul></div></li><li class='xr-section-item'><input id='section-49f76cff-a6c8-4816-9dc2-2db2f1a30c18' class='xr-section-summary-in' type='checkbox'  ><label for='section-49f76cff-a6c8-4816-9dc2-2db2f1a30c18' class='xr-section-summary' >Indexes: <span>(3)</span></label><div class='xr-section-inline-details'></div><div class='xr-section-details'><ul class='xr-var-list'><li class='xr-var-item'><div class='xr-index-name'><div>lat</div></div><div class='xr-index-preview'>PandasIndex</div><div></div><input id='index-e643fc98-c4e9-4b2a-bf6e-6f768c44e160' class='xr-index-data-in' type='checkbox'/><label for='index-e643fc98-c4e9-4b2a-bf6e-6f768c44e160' title='Show/Hide index repr'><svg class='icon xr-icon-database'><use xlink:href='#icon-database'></use></svg></label><div class='xr-index-data'><pre>PandasIndex(Index([            -90.0, -89.0575942993164, -88.1151809692383,
+</table></div></li></ul></div></li><li class='xr-section-item'><input id='section-7348ccc0-ba5c-414c-85df-6e58ea6c6511' class='xr-section-summary-in' type='checkbox'  ><label for='section-7348ccc0-ba5c-414c-85df-6e58ea6c6511' class='xr-section-summary' >Indexes: <span>(3)</span></label><div class='xr-section-inline-details'></div><div class='xr-section-details'><ul class='xr-var-list'><li class='xr-var-item'><div class='xr-index-name'><div>lat</div></div><div class='xr-index-preview'>PandasIndex</div><div></div><input id='index-0fc64f01-88fa-4a91-b05c-ad5c998b3212' class='xr-index-data-in' type='checkbox'/><label for='index-0fc64f01-88fa-4a91-b05c-ad5c998b3212' title='Show/Hide index repr'><svg class='icon xr-icon-database'><use xlink:href='#icon-database'></use></svg></label><div class='xr-index-data'><pre>PandasIndex(Index([            -90.0, -89.0575942993164, -88.1151809692383,
        -87.1727752685547, -86.2303695678711,  -85.287956237793,
        -84.3455505371094, -83.4031448364258, -82.4607315063477,
        -81.5183258056641,
@@ -1691,12 +1691,12 @@ Attributes: (12/25)
         84.3455505371094,   85.287956237793,  86.2303695678711,
         87.1727752685547,  88.1151809692383,  89.0575942993164,
                     90.0],
-      dtype=&#x27;float64&#x27;, name=&#x27;lat&#x27;, length=192))</pre></div></li><li class='xr-var-item'><div class='xr-index-name'><div>lon</div></div><div class='xr-index-preview'>PandasIndex</div><div></div><input id='index-ea9d0588-9f47-41db-a261-b875b539402f' class='xr-index-data-in' type='checkbox'/><label for='index-ea9d0588-9f47-41db-a261-b875b539402f' title='Show/Hide index repr'><svg class='icon xr-icon-database'><use xlink:href='#icon-database'></use></svg></label><div class='xr-index-data'><pre>PandasIndex(Index([   0.0,   1.25,    2.5,   3.75,    5.0,   6.25,    7.5,   8.75,   10.0,
+      dtype=&#x27;float64&#x27;, name=&#x27;lat&#x27;, length=192))</pre></div></li><li class='xr-var-item'><div class='xr-index-name'><div>lon</div></div><div class='xr-index-preview'>PandasIndex</div><div></div><input id='index-0c991571-fd72-471b-89df-de4c4b8315a1' class='xr-index-data-in' type='checkbox'/><label for='index-0c991571-fd72-471b-89df-de4c4b8315a1' title='Show/Hide index repr'><svg class='icon xr-icon-database'><use xlink:href='#icon-database'></use></svg></label><div class='xr-index-data'><pre>PandasIndex(Index([   0.0,   1.25,    2.5,   3.75,    5.0,   6.25,    7.5,   8.75,   10.0,
         11.25,
        ...
         347.5, 348.75,  350.0, 351.25,  352.5, 353.75,  355.0, 356.25,  357.5,
        358.75],
-      dtype=&#x27;float64&#x27;, name=&#x27;lon&#x27;, length=288))</pre></div></li><li class='xr-var-item'><div class='xr-index-name'><div>time</div></div><div class='xr-index-preview'>PandasIndex</div><div></div><input id='index-a872e8aa-643c-41ff-9a80-1d33f34b7908' class='xr-index-data-in' type='checkbox'/><label for='index-a872e8aa-643c-41ff-9a80-1d33f34b7908' title='Show/Hide index repr'><svg class='icon xr-icon-database'><use xlink:href='#icon-database'></use></svg></label><div class='xr-index-data'><pre>PandasIndex(CFTimeIndex([1850-01-01 12:00:00, 1850-01-02 12:00:00, 1850-01-03 12:00:00,
+      dtype=&#x27;float64&#x27;, name=&#x27;lon&#x27;, length=288))</pre></div></li><li class='xr-var-item'><div class='xr-index-name'><div>time</div></div><div class='xr-index-preview'>PandasIndex</div><div></div><input id='index-f49e665a-a592-46ef-8db0-bc0f5601a64c' class='xr-index-data-in' type='checkbox'/><label for='index-f49e665a-a592-46ef-8db0-bc0f5601a64c' title='Show/Hide index repr'><svg class='icon xr-icon-database'><use xlink:href='#icon-database'></use></svg></label><div class='xr-index-data'><pre>PandasIndex(CFTimeIndex([1850-01-01 12:00:00, 1850-01-02 12:00:00, 1850-01-03 12:00:00,
              1850-01-04 12:00:00, 1850-01-05 12:00:00, 1850-01-06 12:00:00,
              1850-01-07 12:00:00, 1850-01-08 12:00:00, 1850-01-09 12:00:00,
              1850-01-10 12:00:00,
@@ -1705,7 +1705,7 @@ Attributes: (12/25)
              1919-12-25 12:00:00, 1919-12-26 12:00:00, 1919-12-27 12:00:00,
              1919-12-28 12:00:00, 1919-12-29 12:00:00, 1919-12-30 12:00:00,
              1919-12-31 12:00:00],
-            dtype=&#x27;object&#x27;, length=25550, calendar=&#x27;noleap&#x27;, freq=&#x27;D&#x27;))</pre></div></li></ul></div></li><li class='xr-section-item'><input id='section-76db137d-39b8-477a-a0d5-d5dce556da98' class='xr-section-summary-in' type='checkbox'  ><label for='section-76db137d-39b8-477a-a0d5-d5dce556da98' class='xr-section-summary' >Attributes: <span>(25)</span></label><div class='xr-section-inline-details'></div><div class='xr-section-details'><dl class='xr-attrs'><dt><span>Conventions :</span></dt><dd>CF-1.0</dd><dt><span>NCO :</span></dt><dd>4.4.2</dd><dt><span>Version :</span></dt><dd>$Name$</dd><dt><span>important_note :</span></dt><dd>This data is part of the project &#x27;Blind Evaluation of Lossy Data-Compression in LENS&#x27;.  Please exercise caution before using this data for other purposes.</dd><dt><span>initial_file :</span></dt><dd>b.e11.B20TRC5CNBDRD.f09_g16.001.cam.i.1920-01-01-00000.nc</dd><dt><span>logname :</span></dt><dd>mudryk</dd><dt><span>nco_openmp_thread_number :</span></dt><dd>1</dd><dt><span>revision_Id :</span></dt><dd>$Id$</dd><dt><span>source :</span></dt><dd>CAM</dd><dt><span>title :</span></dt><dd>UNSET</dd><dt><span>topography_file :</span></dt><dd>/scratch/p/pjk/mudryk/cesm1_1_2_LENS/inputdata/atm/cam/topo/USGS-gtopo30_0.9x1.25_remap_c051027.nc</dd><dt><span>intake_esm_vars :</span></dt><dd>[&#x27;TREFHT&#x27;]</dd><dt><span>intake_esm_attrs:variable :</span></dt><dd>TREFHT</dd><dt><span>intake_esm_attrs:long_name :</span></dt><dd>reference height temperature</dd><dt><span>intake_esm_attrs:component :</span></dt><dd>atm</dd><dt><span>intake_esm_attrs:experiment :</span></dt><dd>HIST</dd><dt><span>intake_esm_attrs:frequency :</span></dt><dd>daily</dd><dt><span>intake_esm_attrs:vertical_levels :</span></dt><dd>1.0</dd><dt><span>intake_esm_attrs:spatial_domain :</span></dt><dd>global</dd><dt><span>intake_esm_attrs:units :</span></dt><dd>K</dd><dt><span>intake_esm_attrs:start_time :</span></dt><dd>1850-01-01 12:00:00</dd><dt><span>intake_esm_attrs:end_time :</span></dt><dd>1919-12-31 12:00:00</dd><dt><span>intake_esm_attrs:path :</span></dt><dd>s3://ncar-cesm-lens/atm/daily/cesmLE-HIST-TREFHT.zarr</dd><dt><span>intake_esm_attrs:_data_format_ :</span></dt><dd>zarr</dd><dt><span>intake_esm_dataset_key :</span></dt><dd>atm.HIST.daily</dd></dl></div></li></ul></div></div></div></div>
+            dtype=&#x27;object&#x27;, length=25550, calendar=&#x27;noleap&#x27;, freq=&#x27;D&#x27;))</pre></div></li></ul></div></li><li class='xr-section-item'><input id='section-8e764b12-07a0-43a8-95ba-ddd62bbee5db' class='xr-section-summary-in' type='checkbox'  ><label for='section-8e764b12-07a0-43a8-95ba-ddd62bbee5db' class='xr-section-summary' >Attributes: <span>(25)</span></label><div class='xr-section-inline-details'></div><div class='xr-section-details'><dl class='xr-attrs'><dt><span>Conventions :</span></dt><dd>CF-1.0</dd><dt><span>NCO :</span></dt><dd>4.4.2</dd><dt><span>Version :</span></dt><dd>$Name$</dd><dt><span>important_note :</span></dt><dd>This data is part of the project &#x27;Blind Evaluation of Lossy Data-Compression in LENS&#x27;.  Please exercise caution before using this data for other purposes.</dd><dt><span>initial_file :</span></dt><dd>b.e11.B20TRC5CNBDRD.f09_g16.001.cam.i.1920-01-01-00000.nc</dd><dt><span>logname :</span></dt><dd>mudryk</dd><dt><span>nco_openmp_thread_number :</span></dt><dd>1</dd><dt><span>revision_Id :</span></dt><dd>$Id$</dd><dt><span>source :</span></dt><dd>CAM</dd><dt><span>title :</span></dt><dd>UNSET</dd><dt><span>topography_file :</span></dt><dd>/scratch/p/pjk/mudryk/cesm1_1_2_LENS/inputdata/atm/cam/topo/USGS-gtopo30_0.9x1.25_remap_c051027.nc</dd><dt><span>intake_esm_vars :</span></dt><dd>[&#x27;TREFHT&#x27;]</dd><dt><span>intake_esm_attrs:variable :</span></dt><dd>TREFHT</dd><dt><span>intake_esm_attrs:long_name :</span></dt><dd>reference height temperature</dd><dt><span>intake_esm_attrs:component :</span></dt><dd>atm</dd><dt><span>intake_esm_attrs:experiment :</span></dt><dd>HIST</dd><dt><span>intake_esm_attrs:frequency :</span></dt><dd>daily</dd><dt><span>intake_esm_attrs:vertical_levels :</span></dt><dd>1.0</dd><dt><span>intake_esm_attrs:spatial_domain :</span></dt><dd>global</dd><dt><span>intake_esm_attrs:units :</span></dt><dd>K</dd><dt><span>intake_esm_attrs:start_time :</span></dt><dd>1850-01-01 12:00:00</dd><dt><span>intake_esm_attrs:end_time :</span></dt><dd>1919-12-31 12:00:00</dd><dt><span>intake_esm_attrs:path :</span></dt><dd>s3://ncar-cesm-lens/atm/daily/cesmLE-HIST-TREFHT.zarr</dd><dt><span>intake_esm_attrs:_data_format_ :</span></dt><dd>zarr</dd><dt><span>intake_esm_dataset_key :</span></dt><dd>atm.HIST.daily</dd></dl></div></li></ul></div></div></div></div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -1715,7 +1715,7 @@ Attributes: (12/25)
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;matplotlib.image.AxesImage at 0x7efe5a02e260&gt;
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;matplotlib.image.AxesImage at 0x7fcf20e9c880&gt;
 </pre></div>
 </div>
 <img alt="../_images/d30269b93e6c80dc1cc7b465787f49f1af0630e9b3d5d6dd601c3f1ca76b392c.png" src="../_images/d30269b93e6c80dc1cc7b465787f49f1af0630e9b3d5d6dd601c3f1ca76b392c.png" />
@@ -1745,7 +1745,7 @@ Attributes: (12/25)
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="../_images/852efc953df90e001518cc5d0ef22d461961951073ebad85df10d3fcc61e5962.png" src="../_images/852efc953df90e001518cc5d0ef22d461961951073ebad85df10d3fcc61e5962.png" />
+<img alt="../_images/4824094cf87b7b83020888f2e832352e8d47462d679e20309ddb55f3f5064d8e.png" src="../_images/4824094cf87b7b83020888f2e832352e8d47462d679e20309ddb55f3f5064d8e.png" />
 </div>
 </div>
 </section>
