@@ -38,6 +38,8 @@ Add a few sentences stating why this cookbook will be useful. What skills will y
 ## Sections
 
 ### Climate Variability and Extremes
+<img src="https://github.com/ProjectPythia/climate-variability-cookbook/blob/main/notebooks/images/climate_extremes.png" width=250 alt="Climate Extremes">
+
 <img src="images/ProjectPythia_Logo_Final-01-Blue.svg" width=250 alt="Project Pythia Logo"></img>
 
 ### Natural Variability in Climate Systems
