@@ -1,6 +1,6 @@
-<img src="thumbnail.png" alt="thumbnail" width="300"/>
-
 # Climate-Variability-Extremes Cookbook
+
+<img src="thumbnail.png" alt="thumbnail" width="300"/>
 
 [![nightly-build](https://github.com/ProjectPythia/climate-variability-cookbook/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythia/climate-variability-cookbook/actions/workflows/nightly-build.yaml)
 [![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/ProjectPythia/climate-variability-cookbook/main?labpath=notebooks)
