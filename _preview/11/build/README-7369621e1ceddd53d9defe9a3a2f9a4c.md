@@ -1,0 +1,116 @@
+<img src="thumbnail.png" alt="thumbnail" width="300"/>
+
+# Climate-Variability-Extremes Cookbook
+
+[![nightly-build](https://github.com/ProjectPythia/climate-variability-cookbook/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythia/climate-variability-cookbook/actions/workflows/nightly-build.yaml)
+[![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/ProjectPythia/climate-variability-cookbook/main?labpath=notebooks)
+[![DOI](https://zenodo.org/badge/475509405.svg)](https://zenodo.org/badge/latestdoi/475509405)
+
+This Project Pythia Cookbook aims to cover the basics of climate variability and extremes, and then analyze this using CESM2-SF-LE data. It provides user-friendly examples and, in the end, an interactive platform. Additionally, it includes some reading materials and links
+
+## Motivation
+
+Understanding what drives climate variability and extremes is crucial for our future. Are these changes due to natural processes, or are human activities like greenhouse gas emissions and aerosols the main culprits? Moreover, how do these drivers impact regions differently compared to the global scale? The CESM2 Single Forcing Large Ensemble (CESM2-SF-LE) project allows us to dig into these questions by isolating the effects of different climate factors. 
+Add a few sentences stating why this cookbook will be useful. What skills will you, "the chef", gain once you have reached the end of the cookbook?)
+
+## Authors
+
+[Debanjana das](@first-author), [Second Author](@second-author), etc. _Acknowledge primary content authors here_
+
+### Contributors
+
+<a href="https://github.com/ProjectPythia/climate-variability-cookbook/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ProjectPythia/climate-variability-cookbook" />
+</a>
+
+## Structure
+
+
+
+## Table of Contents
+
+1. [Climate Variability and Extremes](#climate-variability-and-extremes)
+2. [Natural Variability in Climate Systems](#natural-variability-in-climate-systems)
+3. [Human-Induced Changes in Climate](#human-induced-changes-in-climate)
+4. [Feedback Mechanisms in Climate Systems](#feedback-mechanisms-in-climate-systems)
+5. [Observing and Measuring Climate Extremes](#observing-and-measuring-climate-extremes)
+
+## Sections
+
+### Climate Variability and Extremes
+<img src="https://github.com/ProjectPythia/climate-variability-cookbook/blob/main/notebooks/images/climate_extremes.png" width=250 alt="Climate Extremes">
+
+<img src="images/ProjectPythia_Logo_Final-01-Blue.svg" width=250 alt="Project Pythia Logo"></img>
+
+### Natural Variability in Climate Systems
+Content for this section...
+
+### Human-Induced Changes in Climate
+Content for this section...
+
+### Feedback Mechanisms in Climate Systems
+Content for this section...
+
+### Observing and Measuring Climate Extremes
+Content for this section...
+
+
+## Resourses
+ https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2005JD006290
+ https://agupubs.onlinelibrary.wiley.com/doi/10.1002/jgrd.50150
+ 
+### Section 1 ( Replace with the title of this section, e.g. "Foundations" )
+
+(Add content for this section, e.g., "The foundational content includes ... ")
+
+### Section 2 ( Replace with the title of this section, e.g. "Example workflows" )
+
+(Add content for this section, e.g., "Example workflows include ... ")
+
+## Running the Notebooks
+
+You can either run the notebook using [Binder](https://binder.projectpythia.org/) or on your local machine.
+
+### Running on Binder
+
+The simplest way to interact with a Jupyter Notebook is through
+[Binder](https://binder.projectpythia.org/), which enables the execution of a
+[Jupyter Book](https://jupyterbook.org) in the cloud. The details of how this works are not
+important for now. All you need to know is how to launch a Pythia
+Cookbooks chapter via Binder. Simply navigate your mouse to
+the top right corner of the book chapter you are viewing and click
+on the rocket ship icon, (see figure below), and be sure to select
+“launch Binder”. After a moment you should be presented with a
+notebook that you can interact with. I.e. you’ll be able to execute
+and even change the example programs. You’ll see that the code cells
+have no output at first, until you execute them by pressing
+{kbd}`Shift`\+{kbd}`Enter`. Complete details on how to interact with
+a live Jupyter notebook are described in [Getting Started with
+Jupyter](https://foundations.projectpythia.org/foundations/getting-started-jupyter.html).
+
+### Running on Your Own Machine
+
+If you are interested in running this material locally on your computer, you will need to follow this workflow:
+
+(Replace "cookbook-example" with the title of your cookbooks)
+
+1. Clone the `https://github.com/ProjectPythia/cookbook-example` repository:
+
+   ```bash
+    git clone https://github.com/ProjectPythia/cookbook-example.git
+   ```
+
+1. Move into the `cookbook-example` directory
+   ```bash
+   cd cookbook-example
+   ```
+1. Create and activate your conda environment from the `environment.yml` file
+   ```bash
+   conda env create -f environment.yml
+   conda activate cookbook-example
+   ```
+1. Move into the `notebooks` directory and start up Jupyterlab
+   ```bash
+   cd notebooks/
+   jupyter lab
+   ```
